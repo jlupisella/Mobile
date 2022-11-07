@@ -1,0 +1,29 @@
+<lg-host browserBasedSupport="false" citrixSupport="false"
+    cloudLoadGeneratorId="1624375441510-1164"
+    cloudSessionId="1624375441510" hostname="104.44.136.118:443"
+    loadWeight="1" sapSupport="false" standalone="true"
+    supportWANEmulation="true"
+    uid="12c17975-ebff-4baa-a02f-3c5ada176026" version="7.8.1;build=20210212-76">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="eth0" enabled="false"
+        isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="nllga-prod-1624375441510-1164-0-vm.internal.cloudapp.net">
+            <ip value="172.16.20.4"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:20d:3aff:fe5d:8cac%eth0">
+            <ip value="fe80:0:0:0:20d:3aff:fe5d:8cac%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

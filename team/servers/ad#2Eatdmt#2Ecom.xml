@@ -1,0 +1,4 @@
+<http-server hostname="ad.atdmt.com" port="443" ssl="true"
+    uid="ad.atdmt.com" urlrewriting-argument-name="adv"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

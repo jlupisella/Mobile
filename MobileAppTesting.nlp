@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=MobileAppTesting
+project.version=8.6
+project.original.version=6.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=6.5.0
+project.id=70b86782-4b21-42f9-a310-3646e66a4ff5
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+project.is-open-test-settings-after-upload=true
+team.server.project=/jlupisella/Mobile

@@ -1,0 +1,7 @@
+<http-server
+    hostname="p4-fkh6oj7q4l4ii-av6nxsomfopjojjy-711742-i1-v6exp3.ds.metric.gstatic.com"
+    port="443" ssl="true"
+    uid="p4-fkh6oj7q4l4ii-av6nxsomfopjojjy-711742-i1-v6exp3.ds.metric.gstatic.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

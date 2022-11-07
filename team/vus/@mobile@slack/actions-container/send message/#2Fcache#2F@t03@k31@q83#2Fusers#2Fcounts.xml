@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    name="/cache/T03K31Q83/users/counts"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/fffba973-ea7f-4aee-80a2-f05a4cdfccc2.zip"
+    slaProfileEnabled="false" thinkTime="1130"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fffba973-ea7f-4aee-80a2-f05a4cdfccc2">
+    <embedded-action>1b650551-efbb-49c2-b1ac-270141bae303</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cache/T03K31Q83/users/counts"
+    path="/cache/T03K31Q83/users/counts" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/fffba973-ea7f-4aee-80a2-f05a4cdfccc2.zip"
+    recordedResponseCode="200" responseSize="137"
+    serverUid="edgeapi.slack.com" slaProfileEnabled="false"
+    uid="1b650551-efbb-49c2-b1ac-270141bae303" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1b650551-efbb-49c2-b1ac-270141bae303</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1b650551-efbb-49c2-b1ac-270141bae303.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Host" value="edgeapi.slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+cache-control: no-store&#xd;
+content-encoding: gzip&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Accept-Encoding&#xd;
+x-backend: flannel-iad-izbc,flannelbe-iad-hkfy&#xd;
+date: Mon, 07 Nov 2022 17:49:35 GMT&#xd;
+content-length: 135&#xd;
+x-envoy-upstream-service-time: 20&#xd;
+x-edge-backend: flannel&#xd;
+x-slack-edge-shared-secret-outcome: no-match&#xd;
+server: envoy&#xd;
+via: envoy-edge-iad-2esy</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"token":"xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62","channel":"D0276Q6TA02"}]]></textPostContent>
+</http-action>

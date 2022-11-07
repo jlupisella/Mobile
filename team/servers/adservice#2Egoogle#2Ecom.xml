@@ -1,0 +1,4 @@
+<http-server hostname="adservice.google.com" port="443" ssl="true"
+    uid="adservice.google.com" urlrewriting-argument-name="dc_pre"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

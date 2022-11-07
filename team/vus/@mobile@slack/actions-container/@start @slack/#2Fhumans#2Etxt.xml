@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false" name="/humans.txt"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/9b7843b9-e2a8-4f32-8a41-9fcb83a50992.zip"
+    slaProfileEnabled="false" thinkTime="1739"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9b7843b9-e2a8-4f32-8a41-9fcb83a50992">
+    <embedded-action>edf59603-529f-460a-aa46-192b72de190c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/humans.txt" path="/humans.txt" postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/9b7843b9-e2a8-4f32-8a41-9fcb83a50992.zip"
+    recordedResponseCode="200" responseSize="1132" serverUid="slack.com"
+    slaProfileEnabled="false" uid="edf59603-529f-460a-aa46-192b72de190c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_edf59603-529f-460a-aa46-192b72de190c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_edf59603-529f-460a-aa46-192b72de190c.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="slack.com"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+date: Mon, 07 Nov 2022 17:49:07 GMT&#xd;
+server: Apache&#xd;
+x-powered-by: HHVM/4.153.1&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+vary: Accept-Encoding&#xd;
+last-modified: Fri, 04 Nov 2022 04:03:12 GMT&#xd;
+content-encoding: gzip&#xd;
+content-length: 343&#xd;
+content-type: text/plain;charset=utf-8&#xd;
+x-envoy-upstream-service-time: 9&#xd;
+x-backend: main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow main_control_with_overflow main_bedrock_control_with_overflow&#xd;
+x-server: slack-www-hhvm-main-iad-xumq&#xd;
+x-slack-shared-secret-outcome: no-match&#xd;
+via: envoy-www-iad-bf0q, envoy-edge-iad-5j2e&#xd;
+x-edge-backend: envoy-www&#xd;
+x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

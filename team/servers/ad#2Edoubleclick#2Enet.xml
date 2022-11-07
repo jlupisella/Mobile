@@ -1,0 +1,4 @@
+<http-server hostname="ad.doubleclick.net" port="443" ssl="true"
+    uid="ad.doubleclick.net" urlrewriting-argument-name="sz"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

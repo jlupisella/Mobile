@@ -1,0 +1,4 @@
+<http-server hostname="us-e14.admanmedia.com" port="80" ssl="false"
+    uid="us-e14.admanmedia.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

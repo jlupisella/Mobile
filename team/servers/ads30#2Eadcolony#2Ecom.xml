@@ -1,0 +1,4 @@
+<http-server hostname="ads30.adcolony.com" port="443" ssl="true"
+    uid="ads30.adcolony.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

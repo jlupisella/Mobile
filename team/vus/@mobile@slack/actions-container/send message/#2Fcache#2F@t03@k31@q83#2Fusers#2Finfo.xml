@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/cache/T03K31Q83/users/info" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/ba69a6dd-e7ec-4a38-924e-29fb45bee5ba.zip"
+    slaProfileEnabled="false" thinkTime="8311"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ba69a6dd-e7ec-4a38-924e-29fb45bee5ba">
+    <embedded-action>82eaafb3-5d11-4383-9c8f-e7945302cc5d</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cache/T03K31Q83/users/info"
+    path="/cache/T03K31Q83/users/info" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/ba69a6dd-e7ec-4a38-924e-29fb45bee5ba.zip"
+    recordedResponseCode="200" responseSize="10681"
+    serverUid="edgeapi.slack.com" slaProfileEnabled="false"
+    uid="82eaafb3-5d11-4383-9c8f-e7945302cc5d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_82eaafb3-5d11-4383-9c8f-e7945302cc5d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_82eaafb3-5d11-4383-9c8f-e7945302cc5d.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Host" value="edgeapi.slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+cache-control: no-store&#xd;
+content-encoding: gzip&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Accept-Encoding&#xd;
+x-backend: flannel-iad-yjah,flannelbe-iad-hkfy&#xd;
+date: Mon, 07 Nov 2022 17:49:27 GMT&#xd;
+x-envoy-upstream-service-time: 1&#xd;
+x-edge-backend: flannel&#xd;
+x-slack-edge-shared-secret-outcome: no-match&#xd;
+server: envoy&#xd;
+via: envoy-edge-iad-2esy&#xd;
+transfer-encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"updated_ids":{"U01T4EY52MQ":1666372161,"U03FCUQPJL9":1667304576,"U02H3M8QWQ7":1667575762,"U01HKABFX39":1665894749,"U01RDEQC40Z":1667569754,"U489T8072":1667591953,"USLACKBOT":0,"U01SZGH8030":1666854729,"U036LR7EX6C":1667513990,"U02PEGU3WP9":1667317704,"U02F3J31G14":1667575761,"U01SPM0A1F1":1663770128,"U01TU7U9RQ8":1667421986,"U03527HTN68":1666977274,"U042HPD22EN":1666879703,"U02BGUK4UKB":1666958721,"U01TCA3P7AQ":1667582050,"U01TAJ79HMJ":1667499026,"UCK3DBT5G":1667514810,"UQD2JA9RU":1667582956,"U01TU6Y9PME":1667567906,"U01T0UDKVS7":1667247752,"U02LHT7CRSL":1667246240,"UF85M10FQ":1667491662,"U01TBRGM6HJ":1667576236,"U01TU3HRPL0":1666776014,"UQQ1XLB4J":1666883898,"U034EL9GML7":1667228100,"UJSMN73MJ":1667505430,"U037LRDQMSN":1667492182},"disconnected":[],"cannot_interact":[],"include_profile_only_users":false,"token":"xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62","check_interaction":true}]]></textPostContent>
+</http-action>

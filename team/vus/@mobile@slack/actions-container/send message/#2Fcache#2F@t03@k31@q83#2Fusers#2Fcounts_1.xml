@@ -1,0 +1,158 @@
+<http-page executeResourcesDynamically="false"
+    name="/cache/T03K31Q83/users/counts_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/c70dfad3-a519-4d57-8032-83beba437909.zip"
+    slaProfileEnabled="false" thinkTime="11926"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c70dfad3-a519-4d57-8032-83beba437909">
+    <embedded-action>8f64111e-cbf8-4d70-8213-e091e7ab02c3</embedded-action>
+    <embedded-action>2588fcc5-47de-44fc-934c-2918543f40b8</embedded-action>
+    <embedded-action>620fb60a-042a-429e-888e-18cb0ccfe5fc</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cache/T03K31Q83/users/counts"
+    path="/cache/T03K31Q83/users/counts" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/c70dfad3-a519-4d57-8032-83beba437909.zip"
+    recordedResponseCode="200" responseSize="137"
+    serverUid="edgeapi.slack.com" slaProfileEnabled="false"
+    uid="8f64111e-cbf8-4d70-8213-e091e7ab02c3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8f64111e-cbf8-4d70-8213-e091e7ab02c3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8f64111e-cbf8-4d70-8213-e091e7ab02c3.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Host" value="edgeapi.slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+cache-control: no-store&#xd;
+content-encoding: gzip&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Accept-Encoding&#xd;
+x-backend: flannel-iad-gkum,flannelbe-iad-hkfy&#xd;
+date: Mon, 07 Nov 2022 17:49:49 GMT&#xd;
+content-length: 135&#xd;
+x-envoy-upstream-service-time: 22&#xd;
+x-edge-backend: flannel&#xd;
+x-slack-edge-shared-secret-outcome: no-match&#xd;
+server: envoy&#xd;
+via: envoy-edge-iad-2esy</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"token":"xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62","channel":"D0276Q6TA02"}]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/conversations.mark"
+    path="/api/conversations.mark" postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/c70dfad3-a519-4d57-8032-83beba437909.zip"
+    recordedResponseCode="200" responseSize="11" serverUid="slack.com"
+    slaProfileEnabled="false" uid="2588fcc5-47de-44fc-934c-2918543f40b8" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y2hhbm5lbD1EMDI3NlE2VEEwMiZyZWFzb249dmlld2VkJnRva2VuPXhveHMtMzY0OTA1ODI3NS0xOTIyNTA4MTcyNzM4LTIzMDc1MjM0NDcxMjYtNGNlMTRlY2RlNzEwZmZmODQwN2U1Y2Y5Y2EyYmFlZjlmMWZiYzcwYTU3MmM0OTJlZTUxNzYxMGIzZDBkNGY2MiZ0cz0xNjY3ODQzMzg5LjI2MjM5OQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_2588fcc5-47de-44fc-934c-2918543f40b8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2588fcc5-47de-44fc-934c-2918543f40b8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="channel"
+        recordRawValue="D0276Q6TA02" separator="=" value="D0276Q6TA02" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="reason"
+        recordRawValue="viewed" separator="=" value="viewed" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="token"
+        recordRawValue="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"
+        separator="="
+        value="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ts"
+        recordRawValue="1667843389.262399" separator="="
+        value="1667843389.262399" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+date: Mon, 07 Nov 2022 17:49:49 GMT&#xd;
+server: Apache&#xd;
+x-powered-by: HHVM/4.153.1&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer&#xd;
+x-slack-backend: r&#xd;
+x-slack-unique-id: Y2lFPTpblAxYb7_fpxGvrwAAIBk&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+access-control-allow-headers: slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags&#xd;
+access-control-expose-headers: x-slack-req-id, retry-after&#xd;
+x-oauth-scopes: identify,read,post,client,apps&#xd;
+x-accepted-oauth-scopes: channels:write,groups:write,mpim:write,im:write,post&#xd;
+expires: Mon, 26 Jul 1997 05:00:00 GMT&#xd;
+cache-control: private, no-cache, no-store, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 0&#xd;
+x-content-type-options: nosniff&#xd;
+x-slack-req-id: 38be99282d4f5fd3023fdac98baf683c&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 31&#xd;
+content-type: application/json; charset=utf-8&#xd;
+x-envoy-upstream-service-time: 44&#xd;
+x-backend: main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow main_control_with_overflow main_bedrock_control_with_overflow&#xd;
+x-server: slack-www-hhvm-main-iad-jglo&#xd;
+x-slack-shared-secret-outcome: no-match&#xd;
+via: envoy-www-iad-i0wr, envoy-edge-iad-yuma&#xd;
+x-edge-backend: envoy-www&#xd;
+x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cache/T03K31Q83/users/counts"
+    path="/cache/T03K31Q83/users/counts" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/c70dfad3-a519-4d57-8032-83beba437909.zip"
+    recordedResponseCode="200" responseSize="137"
+    serverUid="edgeapi.slack.com" slaProfileEnabled="false"
+    uid="620fb60a-042a-429e-888e-18cb0ccfe5fc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_620fb60a-042a-429e-888e-18cb0ccfe5fc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_620fb60a-042a-429e-888e-18cb0ccfe5fc.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json; charset=utf-8"/>
+    <header name="Host" value="edgeapi.slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+cache-control: no-store&#xd;
+content-encoding: gzip&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Accept-Encoding&#xd;
+x-backend: flannel-iad-aawj,flannelbe-iad-hkfy&#xd;
+date: Mon, 07 Nov 2022 17:49:49 GMT&#xd;
+content-length: 135&#xd;
+x-envoy-upstream-service-time: 19&#xd;
+x-edge-backend: flannel&#xd;
+x-slack-edge-shared-secret-outcome: no-match&#xd;
+server: envoy&#xd;
+via: envoy-edge-iad-24cw</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"token":"xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62","channel":"D0276Q6TA02"}]]></textPostContent>
+</http-action>

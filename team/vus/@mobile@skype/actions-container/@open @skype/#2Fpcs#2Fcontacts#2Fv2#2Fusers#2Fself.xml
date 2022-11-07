@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/pcs/contacts/v2/users/self" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/fd033814-4a53-4364-b369-605266102651.zip"
+    slaProfileEnabled="false" thinkTime="10945"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fd033814-4a53-4364-b369-605266102651">
+    <embedded-action>32967d05-c3e3-4020-bd53-f081ea1e7585</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    eTag="&quot;g|0000|0000000000000000588|2022-11-07T16:13:23.6462833Z&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/pcs/contacts/v2/users/self"
+    path="/pcs/contacts/v2/users/self" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/fd033814-4a53-4364-b369-605266102651.zip"
+    recordedResponseCode="200" responseSize="42"
+    serverUid="edge.skype.com" slaProfileEnabled="false"
+    uid="32967d05-c3e3-4020-bd53-f081ea1e7585" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2e64ccc1-5732-4a83-a043-02379ae46fff.0.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2e64ccc1-5732-4a83-a043-02379ae46fff.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="delta"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="x-skypetoken" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njc4MzU0NDAsImV4cCI6MTY2NzkyMTgzOSwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2NzgzNTQzOSIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.cZYXzhZmppTr0TODX33XIcEZ55zE5pI0RMhDXQIk_RtGhDyD4aIH6vKZqVFpdMCpS0LxXStz-xYAp15iM3A_nF0j4MDp-sQqeC1l6Q-fML0hqRwlM8bEo6O7vQiGgfxFTxM4WI5FL54fEyvUcN5YOg5rploPb0LYIs7UJMiLTIIRrEbEA8avXq91ZoXnyRBODi8u12ot4cZX_gQWyiinKWH3WTmKcMtTOe5WgvqrkicBJ5TuTM9bXyAlyLgJriAz-PFrUkGhF1KziSA-5otw1f6KZh046CNHZ_DkZBMkzibkvEVXy_kUiRir5iOyFaqyPFm2QtkJrV9NWXiQV4dGsQ"/>
+    <header name="if-none-match" value="&quot;g|0000|0000000000000000588|2022-11-07T15:37:28.5602827Z&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-skype-caller" value="Skype4Life ReactNative iOS (8.86.0.415)"/>
+    <header name="x-skype-request-id" value="2c148f5a2c2445938ee18ef70defe88f.a90760cd-5242-4455-9dec-b430d9751523"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: no-cache,no-store,must-revalidate,private,max-age=0&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-encoding: gzip&#xd;
+etag: "g|0000|0000000000000000588|2022-11-07T15:38:12.9018216Z"&#xd;
+vary: Accept-Encoding&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-session: eyIrZHU2eCszUDFJcWhBZz09IjoiMTk5MTotMSMyNDUxMTA5OCJ9&#xd;
+x-correlation-id: 59788243-05ae-4332-b417-fdd0dbede9a9&#xd;
+x-role-instance: a56d2c36-bf00-4911-9fb3-e5eb99340e99/20&#xd;
+x-cache: CONFIG_NOCACHE&#xd;
+x-msedge-ref: Ref A: 4BABACF1B7324E2CABA9354298FF831B Ref B: BOS321000103025 Ref C: 2022-11-07T15:38:12Z&#xd;
+date: Mon, 07 Nov 2022 15:38:12 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

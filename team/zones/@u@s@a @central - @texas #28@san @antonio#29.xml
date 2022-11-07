@@ -1,0 +1,6 @@
+<zone cloudProvider="Microsoft Azure" dnsOverrideEnabled="false"
+    latitude="29.43601" longitude="-98.493919" proxyType="NO_PROXY"
+    proxyTypeLg="COMMON" uid="USA Central - Texas (San Antonio)">
+    <description>USA Central - Texas (San Antonio)</description>
+    <embedded-action>12c17975-ebff-4baa-a02f-3c5ada176026</embedded-action>
+</zone>

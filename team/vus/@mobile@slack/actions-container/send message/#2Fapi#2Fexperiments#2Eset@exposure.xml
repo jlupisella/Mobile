@@ -1,0 +1,72 @@
+<http-page executeResourcesDynamically="false"
+    name="/api/experiments.setExposure" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/d6cbe9dc-ebcb-4dd9-9a2c-10323aa2f84e.zip"
+    slaProfileEnabled="false" thinkTime="1873"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d6cbe9dc-ebcb-4dd9-9a2c-10323aa2f84e">
+    <embedded-action>a3332527-4eeb-492f-bab1-1319c1bddec8</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/experiments.setExposure"
+    path="/api/experiments.setExposure" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/d6cbe9dc-ebcb-4dd9-9a2c-10323aa2f84e.zip"
+    recordedResponseCode="200" responseSize="28" serverUid="slack.com"
+    slaProfileEnabled="false" uid="a3332527-4eeb-492f-bab1-1319c1bddec8" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZXhwZXJpbWVudHM9aW9zX211bHRpc3RhZ2VfdGV4dF9saW5lX3N0eWxpbmcsaW9zX2lhX2NvbnZlcnNhdGlvbl9oZWFkZXJfY2hhbmdlcyxpb3NfZHVwbG9fbWVzc2FnZV9wYW5lX2ZlYXR1cmUsaW9zX2dvdnNsYWNrX2NvbnRleHRfYmFyLGlvc19pbmNyZWFzZV9tcGRtX2xpbWl0LGlvc19zaG93X3NjaGVkdWxlZF91c2VyX3RpbWV6b25lLG1vYmlsZV9jbGlwc190cmFuc2NyaXB0X2ltcHJvdmVtZW50LGNsaXBzX2ZyZWVtaXVtX21vYmlsZSxpb3NfYXZvaWRfb2Zmc2NyZWVuX2NoYXR2Y19yZWRyYXdzLGlvc19jb21wb3Nlcl9saW5rX3VuZnVybCxtb2JpbGVfZGlyZWN0X21lZGlhX3VwbG9hZCxlel9tb2JpbGVfYmxvY2tfc2NfZmlsZV91cGxvYWRzLGlvc19pbnRlcmNlcHRfbWVudGlvbnMsaW9zX3JlcGxhY2VfY2hhdHZpZXdjb250cm9sbGVyZmFjdG9yeSxpb3NfaGFwdGljX3NlbmRfYnV0dG9uLGlvc19zZW5zaXRpdmVfaW5mb19zcGVlZGJ1bXAsaW9zX2NoYW5uZWxfbWFuYWdlcl9hY3Rpb24mdG9rZW49eG94cy0zNjQ5MDU4Mjc1LTE5MjI1MDgxNzI3MzgtMjMwNzUyMzQ0NzEyNi00Y2UxNGVjZGU3MTBmZmY4NDA3ZTVjZjljYTJiYWVmOWYxZmJjNzBhNTcyYzQ5MmVlNTE3NjEwYjNkMGQ0ZjYy]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_a3332527-4eeb-492f-bab1-1319c1bddec8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a3332527-4eeb-492f-bab1-1319c1bddec8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="experiments"
+        recordRawValue="ios_multistage_text_line_styling,ios_ia_conversation_header_changes,ios_duplo_message_pane_feature,ios_govslack_context_bar,ios_increase_mpdm_limit,ios_show_scheduled_user_timezone,mobile_clips_transcript_improvement,clips_freemium_mobile,ios_avoid_offscreen_chatvc_redraws,ios_composer_link_unfurl,mobile_direct_media_upload,ez_mobile_block_sc_file_uploads,ios_intercept_mentions,ios_replace_chatviewcontrollerfactory,ios_haptic_send_button,ios_sensitive_info_speedbump,ios_channel_manager_action"
+        separator="="
+        value="ios_multistage_text_line_styling,ios_ia_conversation_header_changes,ios_duplo_message_pane_feature,ios_govslack_context_bar,ios_increase_mpdm_limit,ios_show_scheduled_user_timezone,mobile_clips_transcript_improvement,clips_freemium_mobile,ios_avoid_offscreen_chatvc_redraws,ios_composer_link_unfurl,mobile_direct_media_upload,ez_mobile_block_sc_file_uploads,ios_intercept_mentions,ios_replace_chatviewcontrollerfactory,ios_haptic_send_button,ios_sensitive_info_speedbump,ios_channel_manager_action" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="token"
+        recordRawValue="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"
+        separator="="
+        value="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+date: Mon, 07 Nov 2022 17:49:37 GMT&#xd;
+server: Apache&#xd;
+x-powered-by: HHVM/4.153.1&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer&#xd;
+x-slack-backend: r&#xd;
+x-slack-unique-id: Y2lFMQMLc6Wrk6wJCZD6eAAAADQ&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+access-control-allow-headers: slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags&#xd;
+access-control-expose-headers: x-slack-req-id, retry-after&#xd;
+x-oauth-scopes: identify,read,post,client,apps&#xd;
+expires: Mon, 26 Jul 1997 05:00:00 GMT&#xd;
+cache-control: private, no-cache, no-store, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 0&#xd;
+x-content-type-options: nosniff&#xd;
+x-slack-req-id: d38df0771ff3d3203691057606de6d67&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 48&#xd;
+content-type: application/json; charset=utf-8&#xd;
+x-envoy-upstream-service-time: 24&#xd;
+x-backend: main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow main_control_with_overflow main_bedrock_control_with_overflow&#xd;
+x-server: slack-www-hhvm-main-iad-eqmj&#xd;
+x-slack-shared-secret-outcome: no-match&#xd;
+via: envoy-www-iad-12yl, envoy-edge-iad-yuma&#xd;
+x-edge-backend: envoy-www&#xd;
+x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

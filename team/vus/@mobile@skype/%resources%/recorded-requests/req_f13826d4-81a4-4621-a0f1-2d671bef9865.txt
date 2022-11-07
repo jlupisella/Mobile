@@ -1,0 +1,14 @@
+GET https://trouter-azsc-uswe-0-a.trouter.skype.com:443/v3/c?issuer=prod-2&st=1667835145700&se=1668424504700&sr=Z0sAAPsgWGOnYFsTxkKn25pyKPn4dIzUMCQXFogW_vOHMaZ2RbWX8fqZUkgwZnVo0h6jYhDej4H9-oTOYKor57oGRq0W5GA3vdTwtsKwz1e3DjKN4IU&sig=t5JKOl2gCCTsz1g6MXN9KVY5Awkk5v5x6yF463aSbMk&epid=24d421bf-be98-3897-be98-42c642c6be98&ccid=z0CywRAB5RQ&timeout=55 HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: trouter-azsc-uswe-0-a.trouter.skype.com:443
+Trouter-Client: {"ua":"SkyLib","v":"1420\/8.86.0.415", "cv":"2022.25.01.1"}
+User-Agent: SkyLib
+X-ClientCorrelationId: 4887879619941496888
+X-ClientTelemetryEnabled: true
+X-ConnectionAttempts: 1
+X-Skypetoken: eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njc4MzU0NDAsImV4cCI6MTY2NzkyMTgzOSwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2NzgzNTQzOSIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.cZYXzhZmppTr0TODX33XIcEZ55zE5pI0RMhDXQIk_RtGhDyD4aIH6vKZqVFpdMCpS0LxXStz-xYAp15iM3A_nF0j4MDp-sQqeC1l6Q-fML0hqRwlM8bEo6O7vQiGgfxFTxM4WI5FL54fEyvUcN5YOg5rploPb0LYIs7UJMiLTIIRrEbEA8avXq91ZoXnyRBODi8u12ot4cZX_gQWyiinKWH3WTmKcMtTOe5WgvqrkicBJ5TuTM9bXyAlyLgJriAz-PFrUkGhF1KziSA-5otw1f6KZh046CNHZ_DkZBMkzibkvEVXy_kUiRir5iOyFaqyPFm2QtkJrV9NWXiQV4dGsQ
+Sec-WebSocket-Key: rdDj61/9QuNCjbF4obgOqg==
+Sec-WebSocket-Origin: null
+Sec-WebSocket-Version: 13
+

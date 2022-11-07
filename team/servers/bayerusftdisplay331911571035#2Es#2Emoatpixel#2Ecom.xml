@@ -1,0 +1,6 @@
+<http-server hostname="bayerusftdisplay331911571035.s.moatpixel.com"
+    port="443" ssl="true"
+    uid="bayerusftdisplay331911571035.s.moatpixel.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

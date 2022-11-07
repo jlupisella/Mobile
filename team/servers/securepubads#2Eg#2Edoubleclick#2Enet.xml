@@ -1,0 +1,5 @@
+<http-server hostname="securepubads.g.doubleclick.net" port="443"
+    ssl="true" uid="securepubads.g.doubleclick.net"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

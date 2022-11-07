@@ -1,0 +1,132 @@
+<http-page executeResourcesDynamically="false"
+    name="/api/experiments.setExposure_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/93c7f987-8c23-4b33-997a-489696947453.zip"
+    slaProfileEnabled="false" thinkTime="9925"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="93c7f987-8c23-4b33-997a-489696947453">
+    <embedded-action>86b6f3e0-6cfa-4dad-a7cd-3a5ad535a850</embedded-action>
+    <embedded-action>463b3434-0dcd-4160-8481-60a37d06a020</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/experiments.setExposure"
+    path="/api/experiments.setExposure" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/93c7f987-8c23-4b33-997a-489696947453.zip"
+    recordedResponseCode="200" responseSize="28" serverUid="slack.com"
+    slaProfileEnabled="false" uid="86b6f3e0-6cfa-4dad-a7cd-3a5ad535a850" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZXhwZXJpbWVudHM9aW9zX2dvdl9zbGFja19lbWFpbF9jb25maXJtYXRpb25fY29tbWluZ2xlZF9yZXN1bHRzLGlvc19iYXRjaF9wdXNoX3Rva2VuX3JlcXVlc3RzLGlvc19zaW1wbGlmaWVkX2ludml0ZV90b19jaGFubmVsX2FjY2VwdGFuY2VfZmxvdyxpb3NfYnlwYXNzX2lvc18xNl9qYWlsYnJlYWtfcGF0aF9jaGVja19nbG9iYWwsaW9zX2dvdl9zbGFjaw==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_81ea5e06-d0aa-4510-8525-06cb16f5506d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_81ea5e06-d0aa-4510-8525-06cb16f5506d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="experiments"
+        recordRawValue="ios_gov_slack_email_confirmation_commingled_results,ios_batch_push_token_requests,ios_simplified_invite_to_channel_acceptance_flow,ios_bypass_ios_16_jailbreak_path_check_global,ios_gov_slack"
+        separator="="
+        value="ios_gov_slack_email_confirmation_commingled_results,ios_batch_push_token_requests,ios_simplified_invite_to_channel_acceptance_flow,ios_bypass_ios_16_jailbreak_path_check_global,ios_gov_slack" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="slack.com"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+date: Mon, 07 Nov 2022 17:49:17 GMT&#xd;
+server: Apache&#xd;
+x-powered-by: HHVM/4.153.1&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer&#xd;
+x-slack-backend: r&#xd;
+x-slack-unique-id: Y2lFHShjHr_PIw2CB-3-1wAAADU&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+access-control-allow-headers: slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags&#xd;
+access-control-expose-headers: x-slack-req-id, retry-after&#xd;
+expires: Mon, 26 Jul 1997 05:00:00 GMT&#xd;
+cache-control: private, no-cache, no-store, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-robots-tag: noindex,nofollow&#xd;
+x-xss-protection: 0&#xd;
+x-content-type-options: nosniff&#xd;
+x-slack-req-id: a08a0a6715732d53ca039b644b907d67&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 48&#xd;
+content-type: application/json; charset=utf-8&#xd;
+x-envoy-upstream-service-time: 13&#xd;
+x-backend: main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow main_control_with_overflow main_bedrock_control_with_overflow&#xd;
+x-server: slack-www-hhvm-main-iad-rkkc&#xd;
+x-slack-shared-secret-outcome: no-match&#xd;
+via: envoy-www-iad-c2mv, envoy-edge-iad-5j2e&#xd;
+x-edge-backend: envoy-www&#xd;
+x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/experiments.setExposure"
+    path="/api/experiments.setExposure" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@slack/%resources%/recorded-artifacts/93c7f987-8c23-4b33-997a-489696947453.zip"
+    recordedResponseCode="200" responseSize="28" serverUid="slack.com"
+    slaProfileEnabled="false" uid="463b3434-0dcd-4160-8481-60a37d06a020" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZXhwZXJpbWVudHM9bnVtYmVyX2VsZW1lbnRfYmxvY2tfY2xpZW50LGlvc19vdXRib3VuZHNfZWR1Y2F0aW9uLHB1bGxfZG93bl90b19qdW1wX3RvLGRhdGVfdGltZV9lbGVtZW50X2Jsb2NrX2NsaWVudCxpb3Nfc2hhcmVkX21lc3NhZ2VfaW5fcmljaF90ZXh0LGlvc19jb25kaXRpb25fYmxvY2ssaW9zX2FwaV9kYXRhX21ldHJpY3MsaW9zX2xpdmVfaHVkZGxlc19zZWN0aW9uLGlvc19tZW50aW9uc19tc2dfZHAsaW9zX2ludml0ZXNfaW5fbWVudGlvbnNfcGFnZSxpb3Nfb3V0Ym91bmRzLGlvc19hdXRvY29tcGxldGVfY29tYmluZWRfc29ydCxpb3NfcHVsbF90b19yZWZyZXNoX21lbnRpb25zLGlvc19hZGRfdG9fbXBkbV9tMixpb3NfdHJpZ2dlcnNfc25hY2tiYXJfZml4LGlvc19lbW9qaV9zb3J0X2J5X3VzYWdlLGlvc19kdXBsaWNhdGVfZGF0YV9sb2dnaW5nLG1vYmlsZV9wcmV2ZW50X2RlZmF1bHRpbmdfdG9fZ2VuZXJhbF9pbl9zaGFyZV9zaGVldCxpb3NfZG91YmxlX3RhcF90b19lZGl0LGlvc19jb21wb3Nlcl90cmFjZSxpb3NfbG9hZF9pbWFnZXNfYXN5bmNfZnJvbV9jYWNoZSxpb3NfY29sbGFwc2VfcHJldmlld3Nfc2NkbSxpb3Nfcm91dGVfYWRvcHRpb24saW9zX3h3c19zaGFyZWRfY2hhbm5lbF9zaW1wbGlmaWNhdGlvbixpb3NfaWFfYXV0b2NvbXBsZXRlX2NoYW5uZWxfbWVtYmVyc2hpcCxpb3NfbGF0ZXIsaW9zX2ZpbGVuYW1lX2FzX3RpdGxlLGlvc19zZXNzaW9uX2R1cmF0aW9uX3dhcm5pbmcsbW9iaWxlX3NsYWNrX2Nvbm5lY3RfZmlsZXNfZXNjX2ZpeCxpb3Nfb2ZmbGluZV9zaW1wbGVfbXNnLGlvc19jb252ZXJzYXRpb25zX2hpc3RvcnlfYXZvaWRfZHVwbGljYXRlX2RhdGEsaW9zX3N1cHByZXNzX3VzZXJicm9hZGNhc3RzX2luX3RocmVhZHMscmljaF90ZXh0X2VsZW1lbnRfYmxvY2tfY2xpZW50LGlvc19hdXRvY29tcGxldGVfc3VidHJpbmdfbWF0Y2hpbmcsaW9zX3NlY3VyZV9wbGFpbl90ZXh0X2lucHV0LHZpZGVvX2Jsb2NrX21vYmlsZSxpb3NfYXV0b2NvbXBsZXRlX2ZlZWRiYWNrLGlvc19mZXdlcl9yZWFjdGlvbnMsbW9iaWxlX2NsaXBzX3N1cGVyX3JlYWN0aW9ucyxlbmFibGVfY2hhbm5lbF9hdXRvX3NsdWdnaW5nX3VpLGlvc191bnJlYWRfd29ya3NwYWNlc19pbmRpY2F0b3IsaW9zX3NsYWNrX2NhbnZhc19zeW50aGV0aWMsaW9zX2VzY2FwZV9oYXRjaCxpb3NfaWFfbGF1bmNoX3RvX3ByZXZpb3VzX2NvbnZlcnNhdGlvbixpb3Nfc3RvcF9ib2xkaW5nX2RyYWZ0LGlvc19hdGxhc192b3Bfc2VhcmNoJnRva2VuPXhveHMtMzY0OTA1ODI3NS0xOTIyNTA4MTcyNzM4LTIzMDc1MjM0NDcxMjYtNGNlMTRlY2RlNzEwZmZmODQwN2U1Y2Y5Y2EyYmFlZjlmMWZiYzcwYTU3MmM0OTJlZTUxNzYxMGIzZDBkNGY2Mg==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_21f5c524-95d9-4e81-9d21-0376e48b879e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21f5c524-95d9-4e81-9d21-0376e48b879e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="experiments"
+        recordRawValue="number_element_block_client,ios_outbounds_education,pull_down_to_jump_to,date_time_element_block_client,ios_shared_message_in_rich_text,ios_condition_block,ios_api_data_metrics,ios_live_huddles_section,ios_mentions_msg_dp,ios_invites_in_mentions_page,ios_outbounds,ios_autocomplete_combined_sort,ios_pull_to_refresh_mentions,ios_add_to_mpdm_m2,ios_triggers_snackbar_fix,ios_emoji_sort_by_usage,ios_duplicate_data_logging,mobile_prevent_defaulting_to_general_in_share_sheet,ios_double_tap_to_edit,ios_composer_trace,ios_load_images_async_from_cache,ios_collapse_previews_scdm,ios_route_adoption,ios_xws_shared_channel_simplification,ios_ia_autocomplete_channel_membership,ios_later,ios_filename_as_title,ios_session_duration_warning,mobile_slack_connect_files_esc_fix,ios_offline_simple_msg,ios_conversations_history_avoid_duplicate_data,ios_suppress_userbroadcasts_in_threads,rich_text_element_block_client,ios_autocomplete_subtring_matching,ios_secure_plain_text_input,video_block_mobile,ios_autocomplete_feedback,ios_fewer_reactions,mobile_clips_super_reactions,enable_channel_auto_slugging_ui,ios_unread_workspaces_indicator,ios_slack_canvas_synthetic,ios_escape_hatch,ios_ia_launch_to_previous_conversation,ios_stop_bolding_draft,ios_atlas_vop_search"
+        separator="="
+        value="number_element_block_client,ios_outbounds_education,pull_down_to_jump_to,date_time_element_block_client,ios_shared_message_in_rich_text,ios_condition_block,ios_api_data_metrics,ios_live_huddles_section,ios_mentions_msg_dp,ios_invites_in_mentions_page,ios_outbounds,ios_autocomplete_combined_sort,ios_pull_to_refresh_mentions,ios_add_to_mpdm_m2,ios_triggers_snackbar_fix,ios_emoji_sort_by_usage,ios_duplicate_data_logging,mobile_prevent_defaulting_to_general_in_share_sheet,ios_double_tap_to_edit,ios_composer_trace,ios_load_images_async_from_cache,ios_collapse_previews_scdm,ios_route_adoption,ios_xws_shared_channel_simplification,ios_ia_autocomplete_channel_membership,ios_later,ios_filename_as_title,ios_session_duration_warning,mobile_slack_connect_files_esc_fix,ios_offline_simple_msg,ios_conversations_history_avoid_duplicate_data,ios_suppress_userbroadcasts_in_threads,rich_text_element_block_client,ios_autocomplete_subtring_matching,ios_secure_plain_text_input,video_block_mobile,ios_autocomplete_feedback,ios_fewer_reactions,mobile_clips_super_reactions,enable_channel_auto_slugging_ui,ios_unread_workspaces_indicator,ios_slack_canvas_synthetic,ios_escape_hatch,ios_ia_launch_to_previous_conversation,ios_stop_bolding_draft,ios_atlas_vop_search" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="token"
+        recordRawValue="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"
+        separator="="
+        value="xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer xoxs-3649058275-1922508172738-2307523447126-4ce14ecde710fff8407e5cf9ca2baef9f1fbc70a572c492ee517610b3d0d4f62"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="slack.com"/>
+    <header name="Slack-Route" value="NON-ENTERPRISE-ID:T03K31Q83"/>
+    <header name="User-Agent" value="com.tinyspeck.chatlyio/22.08.20 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <header name="UUID" value="168F7F9A6B5C46399DE57487FC823118"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+date: Mon, 07 Nov 2022 17:49:17 GMT&#xd;
+server: Apache&#xd;
+x-powered-by: HHVM/4.153.1&#xd;
+access-control-allow-origin: *&#xd;
+referrer-policy: no-referrer&#xd;
+x-slack-backend: r&#xd;
+x-slack-unique-id: Y2lFHYixiCD84Rn4HMyZZQAAAD8&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+access-control-allow-headers: slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags&#xd;
+access-control-expose-headers: x-slack-req-id, retry-after&#xd;
+x-oauth-scopes: identify,read,post,client,apps&#xd;
+expires: Mon, 26 Jul 1997 05:00:00 GMT&#xd;
+cache-control: private, no-cache, no-store, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 0&#xd;
+x-content-type-options: nosniff&#xd;
+x-slack-req-id: 6d21719f630505f52d7c1acdf0d71f31&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+content-length: 48&#xd;
+content-type: application/json; charset=utf-8&#xd;
+x-envoy-upstream-service-time: 35&#xd;
+x-backend: main_normal main_bedrock_normal_with_overflow main_canary_with_overflow main_bedrock_canary_with_overflow main_control_with_overflow main_bedrock_control_with_overflow&#xd;
+x-server: slack-www-hhvm-main-iad-etiu&#xd;
+x-slack-shared-secret-outcome: no-match&#xd;
+via: envoy-www-iad-yqus, envoy-edge-iad-yuma&#xd;
+x-edge-backend: envoy-www&#xd;
+x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

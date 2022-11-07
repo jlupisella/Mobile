@@ -1,0 +1,4 @@
+<http-server hostname="nus1-api.asm.skype.com" port="443" ssl="true"
+    uid="nus1-api.asm.skype.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

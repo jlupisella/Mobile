@@ -1,0 +1,8 @@
+<http-server hostname="p57-quota.icloud.com" port="443" ssl="true"
+    uid="p57-quota.icloud.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization
+        password="1I5WzxN5XFNOtfOrhdnUkdu381mHAFFcFF2lyUbrIleBvouRC5B82wVhCgfVrsEkRsBVGe+frjO8tdaMqbYyc3Ye1hvDq1JvaJ69uO1VTD56+ZfjCGZB9cmgSerJHiC6zINZlghiswgUZzNu7ntDnoAWjO07E/v+wFtD74laVtH9hZcIPnfanoW7SWBs4WC4Q/VSUed/GRA9d25AgKavz6MG6KOEPQ9sOeL8O9Qgf4nnEcW6zZsh6HAfbDdtJeNkuKmoQH0M9MTEiIUtYFosGA==$2"
+        realm="" scheme="Basic" userName="192277760"/>
+</http-server>

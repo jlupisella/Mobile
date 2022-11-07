@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Start Slack" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="61615bc4-4e8e-4f11-a5e6-a85bd928a2d3" weightsEnabled="false">
+    <weighted-embedded-action uid="be2d4cdf-8518-421e-886d-025f3fa1aa4e"/>
+    <weighted-embedded-action uid="9b7843b9-e2a8-4f32-8a41-9fcb83a50992"/>
+</basic-logical-action-container>

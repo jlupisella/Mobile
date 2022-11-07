@@ -1,0 +1,4 @@
+<http-server hostname="events3alt.adcolony.com" port="443" ssl="true"
+    uid="events3alt.adcolony.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

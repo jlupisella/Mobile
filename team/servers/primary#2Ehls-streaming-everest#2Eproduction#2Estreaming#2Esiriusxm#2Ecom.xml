@@ -1,0 +1,7 @@
+<http-server
+    hostname="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    port="80" ssl="false"
+    uid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

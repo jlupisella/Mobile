@@ -1,0 +1,4 @@
+<http-server hostname="ade.googlesyndication.com" port="443" ssl="true"
+    uid="ade.googlesyndication.com" urlrewriting-argument-name="met"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>
