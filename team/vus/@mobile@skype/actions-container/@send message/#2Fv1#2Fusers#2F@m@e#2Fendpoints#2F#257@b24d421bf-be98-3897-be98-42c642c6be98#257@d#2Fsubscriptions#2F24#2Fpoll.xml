@@ -1,0 +1,505 @@
+<http-page executeResourcesDynamically="false"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    slaProfileEnabled="false" thinkTime="8456"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="42aeb5e6-53cc-46ab-ab3f-ba8806f69453">
+    <embedded-action>8b7e7674-012a-45d0-806f-acb6324c901a</embedded-action>
+    <embedded-action>997b2598-4319-4322-aedd-0c5dd9b330d4</embedded-action>
+    <embedded-action>9a5bbda8-2b4e-4bd3-aa0d-c8d81ce940bb</embedded-action>
+    <embedded-action>7564c836-ffa9-427b-9f3b-390d9e0cd88d</embedded-action>
+    <embedded-action>e54cfcb8-ba8c-4238-9a64-15f91b7ea066</embedded-action>
+    <embedded-action>f1cc415e-565a-4610-9007-64f06d891ca1</embedded-action>
+    <embedded-action>836f1a3a-3bd6-428b-888b-38aa9f7b33de</embedded-action>
+    <embedded-action>18a064a0-33a9-4a31-a108-83afff2d0fae</embedded-action>
+    <embedded-action>60fb9d20-cedc-4c6c-9ad2-f0deb7568118</embedded-action>
+    <embedded-action>d8114add-df43-468a-8cac-2ea60b3627d7</embedded-action>
+    <embedded-action>e8f5f388-a80d-4171-a2a3-4f18f7297922</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="1102"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="8b7e7674-012a-45d0-806f-acb6324c901a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ce35ab59-4969-44d4-be55-224792f6e3c0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ce35ab59-4969-44d4-be55-224792f6e3c0.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2669" separator="=" value="2669" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 465&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=7717985064979992290,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:28 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/conversations/8%3Atom.fontes.neotys/messages"
+    path="/v1/users/ME/conversations/8%3Atom.fontes.neotys/messages"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="201" responseSize="37"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="997b2598-4319-4322-aedd-0c5dd9b330d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_be77edb6-8dba-46a7-8469-0d9e2decf105</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_be77edb6-8dba-46a7-8469-0d9e2decf105.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-ecs-etag"
+        recordRawValue="%22XbpvV39fe6MtNJB7V6%2BajcvFr14UYZXE3P4XASv95HE%3D%22"
+        separator="="
+        value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 201 Created&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 37&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Location: https://azwus2-client-s.gateway.messenger.live.com/v1/users/ME/conversations/8:tom.fontes.neotys/messages/1668795269241&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=6277327320276810476,server=MW1PEPF0000596C&#xd;
+Date: Fri, 18 Nov 2022 18:14:28 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"clientmessageid":"10660727420904739728","composetime":"2022-11-18T18:14:29.034Z","content":"Hello Mr. Fontes","messagetype":"RichText","contenttype":"text","imdisplayname":"Jeffrey Lupisella","receiverdisplayname":"Tom Fontes"}]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="3994"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="9a5bbda8-2b4e-4bd3-aa0d-c8d81ce940bb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_025fdc0b-2dbb-4447-b1dc-722081607b25</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_025fdc0b-2dbb-4447-b1dc-722081607b25.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2670" separator="=" value="2670" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 1320&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=7448223029961202213,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:29 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT"
+    name="/v1/users/ME/conversations/8%3Atom.fontes.neotys/properties"
+    path="/v1/users/ME/conversations/8%3Atom.fontes.neotys/properties"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="7564c836-ffa9-427b-9f3b-390d9e0cd88d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3aa64100-c76a-40ba-9591-5f5b64d700ab.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="consumptionhorizon" separator="="
+        value="consumptionhorizon" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="bookmark" recordRawValue="false" separator="="
+        value="false" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-ecs-etag"
+        recordRawValue="%22XbpvV39fe6MtNJB7V6%2BajcvFr14UYZXE3P4XASv95HE%3D%22"
+        separator="="
+        value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=8076619746802447085,server=MW1PEPF0000596C&#xd;
+Date: Fri, 18 Nov 2022 18:14:29 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"consumptionhorizon":"1668795269241;1668795269530;10660727420904739728"}]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="1192"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="e54cfcb8-ba8c-4238-9a64-15f91b7ea066" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e93f5208-876d-4881-a027-06468d4415cd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e93f5208-876d-4881-a027-06468d4415cd.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2671" separator="=" value="2671" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 576&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=1646027470543352706,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:30 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="1029"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="f1cc415e-565a-4610-9007-64f06d891ca1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a5601051-d8eb-43d8-a3aa-86de2a94792c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a5601051-d8eb-43d8-a3aa-86de2a94792c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2672" separator="=" value="2672" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 427&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=5846718206547474653,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:33 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="1098"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="836f1a3a-3bd6-428b-888b-38aa9f7b33de" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c4b4da02-2cda-4054-b5db-e8ef293f4082</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c4b4da02-2cda-4054-b5db-e8ef293f4082.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2673" separator="=" value="2673" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 472&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=493835655235283059,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:37 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Collector/3.0/" path="/Collector/3.0/"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="browser.pipe.aria.microsoft.com"
+    slaProfileEnabled="false" uid="18a064a0-33a9-4a31-a108-83afff2d0fae" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[YlFrTEFVbzBNVEl3TmpkbE4yWTVPV0kwWkRVME9EVmlaRGsxWmprNFpUSmlaR0ptWlMwMVlqVmxPVFExWWkxaE9UZ3hMVFJqT0RjdE9UWXpaaTFqWkRabVpUQTBNVEF3TWprdE56STRNQW9CU1JKaFkzUmZaR1ZtWVhWc2RGOXpiM1Z5WTJXcEpETmtNMlprTWpnekxXSTNNakV0TkdGaE15MWlZbVV5TFRZNVltWTJaak0yT0RCak5ORUd4b3ladjVGaHl3Z0tBU2trTjJNME9XSTVObVl0WkdWalpTMDBZelV3TFdJNU5EVXRPRE13TmpCak1qVTRZVEExY2ZEK2w3K1JZYWtHWTNWemRHOXR5UVlNYldWemMyRm5aVjl6Wlc1MHpRMEpDVEFjVTJ0NWNHVmZTVzVwZEdsaGRHbHVaMVZ6WlhKZlNYTkhkV1Z6ZEFGT0hWTnJlWEJsWDBsdWFYUnBZWFJwYm1kVmMyVnlYMVZ6WlhKdVlXMWxGbXhwZG1VNmFtVm1abkpsZVM1c2RYQnBjMlZzYkdFSlUyaGxiR3hVZVhCbEMxSmxZV04wVG1GMGFYWmxERkJzWVhSbWIzSnRWSGx3WlFOcFQxTUhWbVZ5YzJsdmJnbzRMamcyTGpBdU5ERTFFbEJzWVhSbWIzSnRYMVZwZG1WeWMybHZiZzh4TkRJd0x6Z3VPRFl1TUM0ME1UVUxVR3hoZEdadmNtMWZTV1FFTVRReU1BOUVaWFpwWTJWSmJtWnZMazFoYTJVRlFYQndiR1VRUkdWMmFXTmxTVzVtYnk1TmIyUmxiQVpwVUdodmJtVUlaV056WDJWMFlXY3VJbGhpY0haV016bG1aVFpOZEU1S1FqZFdOaXRoYW1OMlJuSXhORlZaV2xoRk0xQTBXRUZUZGprMVNFVTlJZ3RPWlhSM2IzSnJWSGx3WlFSWGFXWnBDbk5sYzNOcGIyNWZhV1FrWlRjeU9EZGpZVGd0T0RjMU1DMDBObUprTFdFME5ESXRNbUl3WmpSak5qRTFOelE0RlVGd2NFbHVabTh1Ulhod1pYSnBiV1Z1ZEVsa2MyRlFMVVV0TVRBME16WTBPQzFETVMwM0xGQXRVaTB4TURRMk5UYzVMVEV0TVN4UUxVVXRNVEEwTkRRME55MHlMVGNzVUMxRkxURXdORE0yTkRndFF6RXROeXhRTFZJdE1UQTBOalUzT1MweExURXNVQzFTTFRFd05USXdNamN0TVMwMERrTm9ZWFJGYm1Sd2IybHVkRWxrSkRJMFpEUXlNV0ptTFdKbE9UZ3RNemc1TnkxaVpUazRMVFF5WXpZME1tTTJZbVU1T0JGSmMwSnZkRU52Ym5abGNuTmhkR2x2YmdGT0UwbHpSM0p2ZFhCRGIyNTJaWEp6WVhScGIyNEJUaGRKYzBWdVkzSjVjSFJsWkVOdmJuWmxjbk5oZEdsdmJnRk9Ea052Ym5abGNuTmhkR2x2Ymtsa1VqRTVPall4TkRCak4yVXhOR1ZoTmpsbU5tTmtOVE5sTTJVd1pXRXlZalpsTVRReVlqSTRaV05rT0ROaU1ETTVNVFU1T1RRell6VmtOVFl4TldVMllUWmtPV0ZBYjI1bFZHOVBibVV1YzJ0NWNHVU1UWEpwVG1GdFpYTndZV05sQVRnTFRXVnpjMkZuWlZSNWNHVUVWR1Y0ZEE1TlpYTnpZV2RsVW1GM1ZIbHdaUWhTYVdOb1ZHVjRkQXhKYzA5M2JrMWxjM05oWjJVQldRNURhR0Z5WVdOMFpYSkRiM1Z1ZEFJeE5nMUZiVzkwYVdOdmJrTnZkVzUwQVRBUVRtRjBhWFpsUlcxdmFtbERiM1Z1ZEFFd0NsQnZjM1JUYjNWeVkyVU1UV1Z6YzJGblpWQmhibVZzRFVoaGMxZHBhMmxOWVhKcmRYQUJUZzlEYkdsbGJuUk5aWE56WVdkbFNXUVVNVEEyTmpBM01qYzBNakE1TURRM016azNNamdLUlc1a2NHOXBiblJKWkNaN01qUmtOREl4WW1ZdFltVTVPQzB6T0RrM0xXSmxPVGd0TkRKak5qUXlZelppWlRrNGZRNVNaV2RwYzNSeVlYUnBiMjVKWkNReU5HUTBNakZpWmkxaVpUazRMVE00T1RjdFltVTVPQzAwTW1NMk5ESmpObUpsT1RnUVQyNWxUMjVQYm1WVWFISmxZV1JKWkZJeE9UbzJNVFF3WXpkbE1UUmxZVFk1WmpaalpEVXpaVE5sTUdWaE1tSTJaVEUwTW1JeU9HVmpaRGd6WWpBek9URTFPVGswTTJNMVpEVTJNVFZsTm1FMlpEbGhRRzl1WlZSdlQyNWxMbk5yZVhCbEZFMWxjM05oWjJWRGIzSnlaV3hoZEdsdmJrbGtJR0l4TURnMU1XSTRaR1l5WkRjNU1XSmxOalUwTkdSbVl6ZzFZakk1TldWaURVUmxkbWxqWlVsdVptOHVTV1FrUXpKQk1FVkJNME10UlRKRlJpMDBSREpDTFVJek5FUXRRall6TkRNMU5UWkRPRFUwQmsxVFFVTkpSQk00T0Rnd01EUTBORFE0TVRrNU1UTXhNREF3Q1UxVFFVTkpSRWhGV0JBM1FqTkROREUyTURoRE9UWkNSVUZERVZWelpYSkpibVp2TGxScGJXVmFiMjVsQmkwd05Ub3dNQlpFWlhacFkyVkpibVp2TGtKeWIzZHpaWEpPWVcxbEIxVnVhMjV2ZDI0WlJHVjJhV05sU1c1bWJ5NUNjbTkzYzJWeVZtVnljMmx2YmdkVmJtdHViM2R1RVVSbGRtbGpaVWx1Wm04dVQzTk9ZVzFsQTJsUFV4UkVaWFpwWTJWSmJtWnZMazl6Vm1WeWMybHZiZ1F4TlM0MkQwRndjRWx1Wm04dVZtVnljMmx2YmdvNExqZzJMakF1TkRFMUVFRndjRWx1Wm04dVRHRnVaM1ZoWjJVRlpXNHRWVk1SVlhObGNrbHVabTh1VEdGdVozVmhaMlVGWlc0dFZWTVFSWFpsYm5SSmJtWnZMa2x1YVhSSlpDUTFZV1JtTURSaE9TMWlObVV3TFRSaU56TXRZbVZpTkMxaE1qa3lORFZqWTJVME5tVVNSWFpsYm5SSmJtWnZMbE5sY1hWbGJtTmxBalkwRkVWMlpXNTBTVzVtYnk1VFpHdFdaWEp6YVc5dUVFRlhWQzFYWldJdFNsTXRNUzQ0TGpNT1JYWmxiblJKYm1adkxrNWhiV1VNYldWemMyRm5aVjl6Wlc1MERrVjJaVzUwU1c1bWJ5NVVhVzFsR0RJd01qSXRNVEV0TVRoVU1UZzZNVFE2TWprdU1EUTRXczBlQ1FvREMxSmxZMlZwZG1WeVRYSnBNQUpRRkdrVE9EcDBiMjB1Wm05dWRHVnpMbTVsYjNSNWN3QU9VbVZqWldsMlpYSlZjMlZ5U1dRd0FsQVVhUkYwYjIwdVptOXVkR1Z6TG01bGIzUjVjd0FMVlhObGNrbHVabTh1U1dRd0FsQVVhUlpzYVhabE9tcGxabVp5WlhrdWJIVndhWE5sYkd4aEFBQUFBQT09]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_f0a72713-8fe1-4a17-9df4-cdf1c6f01f9a.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="qsp"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-type"
+        recordRawValue="application%2Fbond-compact-binary" separator="="
+        value="application/bond-compact-binary" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sdk-version" recordRawValue="AWT-Web-JS-1.8.3"
+        separator="=" value="AWT-Web-JS-1.8.3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-encoding" recordRawValue="base64" separator="="
+        value="base64" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-apikey"
+        recordRawValue="412067e7f99b4d5485bd95f98e2bdbfe-5b5e945b-a981-4c87-963f-cd6fe0410029-7280"
+        separator="="
+        value="412067e7f99b4d5485bd95f98e2bdbfe-5b5e945b-a981-4c87-963f-cd6fe0410029-7280" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-time-epoch-millis" recordRawValue="1668795278122"
+        separator="=" value="1668795278122" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis" recordRawValue="699"
+        separator="=" value="699" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="client-id" value="NO_AUTH"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Encoding" value="base64"/>
+    <header name="Content-Type" value="application/bond-compact-binary"/>
+    <header name="Host" value="browser.pipe.aria.microsoft.com"/>
+    <header name="sdk-version" value="AWT-Web-JS"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 0&#xd;
+Content-Type: application/json&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+time-delta-millis: 54&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Headers: Accept, Content-Type, Content-Encoding, Client-Id&#xd;
+Access-Control-Expose-Headers: kill-tokens, kill-duration-seconds, time-delta-millis&#xd;
+Date: Fri, 18 Nov 2022 18:14:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="1191"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="60fb9d20-cedc-4c6c-9ad2-f0deb7568118" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6a1a9f38-ab57-4547-9d15-5ac15cb615f5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6a1a9f38-ab57-4547-9d15-5ac15cb615f5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2674" separator="=" value="2674" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 573&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=7783293039239147182,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    path="/v1/users/ME/endpoints/%7B24d421bf-be98-3897-be98-42c642c6be98%7D/subscriptions/24/poll"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="3989"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="d8114add-df43-468a-8cac-2ea60b3627d7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7314a714-299f-4f3f-b08a-18a919e0f1ad</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7314a714-299f-4f3f-b08a-18a919e0f1ad.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ackId"
+        recordRawValue="2675" separator="=" value="2675" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="{24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 1300&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=4174768419706485880,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:39 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT"
+    name="/v1/users/ME/conversations/8%3Atom.fontes.neotys/properties"
+    path="/v1/users/ME/conversations/8%3Atom.fontes.neotys/properties"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/42aeb5e6-53cc-46ab-ab3f-ba8806f69453.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="e8f5f388-a80d-4171-a2a3-4f18f7297922" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_a1e9d333-d39a-475b-818a-9fcbfcf0b1d5.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="consumptionhorizon" separator="="
+        value="consumptionhorizon" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="bookmark" recordRawValue="false" separator="="
+        value="false" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-ecs-etag"
+        recordRawValue="%22XbpvV39fe6MtNJB7V6%2BajcvFr14UYZXE3P4XASv95HE%3D%22"
+        separator="="
+        value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQm9lVnl1amtGSGNPZlJKUktUbGwwRDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3Mjk5Mzg5OTQzNDExNTc7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3Mjk5Mzg4NjI2MjM5NDU7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwODAyODI3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhTXQzWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668881640; endpointId={24d421bf-be98-3897-be98-42c642c6be98}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;XbpvV39fe6MtNJB7V6+ajcvFr14UYZXE3P4XASv95HE=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=8397454576522248571,server=MW1PEPF0000596C&#xd;
+Date: Fri, 18 Nov 2022 18:14:39 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"consumptionhorizon":"1668795278319;1668795280039;2723594307098329181"}]]></textPostContent>
+</http-action>

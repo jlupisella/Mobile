@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    name="/v2/registrations_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/a94705a2-a5fe-4266-bcf5-7e5605f1bd61.zip"
+    slaProfileEnabled="false" thinkTime="306"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a94705a2-a5fe-4266-bcf5-7e5605f1bd61">
+    <embedded-action>d919fd7c-e64d-4b1c-b553-68fb77e85930</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v2/registrations" path="/v2/registrations"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/a94705a2-a5fe-4266-bcf5-7e5605f1bd61.zip"
+    recordedResponseCode="202" responseSize="0"
+    serverUid="prod.registrar.skype.com" slaProfileEnabled="false"
+    uid="d919fd7c-e64d-4b1c-b553-68fb77e85930" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_788e605f-ec53-47ae-b1e7-2bec6e742ea9.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="prod.registrar.skype.com"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-skypetoken" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <responseHeaders>HTTP/1.1 202 Accepted&#xd;
+Connection: close&#xd;
+Date: Fri, 18 Nov 2022 18:14:07 GMT&#xd;
+Server: Kestrel&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+MS-CV: LqG1kvo+Z0aNSf4CyCNrPQ.0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"registrationId":"24d421bf-be98-3897-be98-42c642c6be98","nodeId":"","clientDescription":{"appId":"com.skype.skype.t2","platform":"iOS","languageId":"en-US","templateKey":"com.skype.skype.t2:8.17","platformUIVersion":"1420/8.86.0.415/","notificationFilteringService":"skype"},"transports":{"APNS":[{"ttl":15552000,"context":"NGCS2S","creationTime":"","path":"RfENlmdNAX0qu431bm1M1PK68s4tWmqLQ7JtchGP+Ys="},{"ttl":15552000,"context":"NGCGVC","creationTime":"","path":"RfENlmdNAX0qu431bm1M1PK68s4tWmqLQ7JtchGP+Ys="},{"ttl":15552000,"context":"NGCL2S","creationTime":"","path":"RfENlmdNAX0qu431bm1M1PK68s4tWmqLQ7JtchGP+Ys="},{"ttl":15552000,"context":"","creationTime":"","path":"dlXp61qLGPWgJckTs7wrPmy8SgN1Ip7gqeO3CW3Dq7w="},{"ttl":15552000,"context":"NGC_CAST","creationTime":"","path":"dlXp61qLGPWgJckTs7wrPmy8SgN1Ip7gqeO3CW3Dq7w="},{"ttl":15552000,"context":"NGCP2S","creationTime":"","path":"RfENlmdNAX0qu431bm1M1PK68s4tWmqLQ7JtchGP+Ys="}],"TROUTER":[{"context":"","creationTime":"","path":"https://trouter-azsc-uswe-0-b.trouter.skype.com:3443/v3/f/DdHDsZ1X7EmBpL4iqdQuIQ","ttl":540462}]}}]]></textPostContent>
+</http-action>

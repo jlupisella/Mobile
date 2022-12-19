@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Start Skype" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="fd9b48b4-202e-4ebb-9f52-c8eb7c173068" weightsEnabled="false">
+    <weighted-embedded-action uid="382cf208-915d-4ed6-8a3d-b7dd8f27446f"/>
+    <weighted-embedded-action uid="8711b97e-1ee5-4b7f-bc27-9c005b83eb17"/>
+    <weighted-embedded-action uid="35863b21-807f-4583-8e45-30572e2c169e"/>
+    <weighted-embedded-action uid="baac8103-bb65-4d3d-be4f-f3c0674dbe8b"/>
+    <weighted-embedded-action uid="81d44c7c-e5fd-4567-8202-7d68b2dcd0e9"/>
+    <weighted-embedded-action uid="06b7e6ba-9b20-44d2-8896-296b9f1a4599"/>
+    <weighted-embedded-action uid="20731a2f-b1c0-48dd-9e74-136cb2ef06e1"/>
+    <weighted-embedded-action uid="fa6a1160-f10a-4501-a6e6-1e594f90f751"/>
+    <weighted-embedded-action uid="6694c9b0-a521-4310-a61d-174d3ba5a333"/>
+    <weighted-embedded-action uid="a44a1907-4a88-4ce2-b5a5-f4129eb9614e"/>
+</basic-logical-action-container>

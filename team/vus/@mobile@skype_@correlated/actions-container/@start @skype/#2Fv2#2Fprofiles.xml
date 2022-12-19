@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false" name="/v2/profiles"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/06b7e6ba-9b20-44d2-8896-296b9f1a4599.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="06b7e6ba-9b20-44d2-8896-296b9f1a4599">
+    <embedded-action>6b41e7f2-af26-42e3-b248-12e024a00b0c</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v2/profiles" path="/v2/profiles" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/06b7e6ba-9b20-44d2-8896-296b9f1a4599.zip"
+    recordedResponseCode="200" responseSize="279"
+    serverUid="people.skype.com" slaProfileEnabled="false"
+    uid="6b41e7f2-af26-42e3-b248-12e024a00b0c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4ddbaef0-ce6f-4dd0-8fbc-6f06210d1668</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4ddbaef0-ce6f-4dd0-8fbc-6f06210d1668.txt</requestContentFileDescription>
+    <header name="x-skypetoken" value="${skypetoken}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-skype-caller" value="Skype4Life ReactNative iOS (8.86.0.415)"/>
+    <header name="x-skype-request-id" value="aaebfac0-4cc1-4518-bd1f-fbdd87b9772f"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+server: Microsoft-HTTPAPI/2.0&#xd;
+ms-cv: j46Bz3Og8Uq3HQyMd8mybA.0&#xd;
+strict-transport-security: max-age=2592000&#xd;
+date: Fri, 18 Nov 2022 18:14:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"mris":["8:live:jeffrey.lupisella"],"locale":"en-US"}]]></textPostContent>
+</http-action>

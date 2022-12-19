@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false" name="/v2/query"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/baac8103-bb65-4d3d-be4f-f3c0674dbe8b.zip"
+    slaProfileEnabled="false" thinkTime="2538"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="baac8103-bb65-4d3d-be4f-f3c0674dbe8b">
+    <embedded-action>80820532-f336-490e-8f25-6ce1164b05cd</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v2/query" path="/v2/query" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/baac8103-bb65-4d3d-be4f-f3c0674dbe8b.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="msgsearch.skype.com" slaProfileEnabled="false"
+    uid="80820532-f336-490e-8f25-6ce1164b05cd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_86cc60e5-3ace-4edf-894f-4b5767d9c8e8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_86cc60e5-3ace-4edf-894f-4b5767d9c8e8.txt</requestContentFileDescription>
+    <header name="x-skypetoken" value="${skypetoken}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-ms-correlation-id" value="8ed27c35b339416589290f72b27bdbe2"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 2&#xd;
+content-type: application/json; charset=utf-8&#xd;
+server: Microsoft-HTTPAPI/2.0&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Fri, 18 Nov 2022 18:14:06 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"OPTION":{"RESULTBASE":0,"RESULTCOUNT":100},"QUERYSTRING":{"AND":[{"ContentType":"ScheduledCallInvite"}]}}]]></textPostContent>
+</http-action>

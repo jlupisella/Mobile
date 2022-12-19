@@ -957,8 +957,10 @@ x-slack-edge-shared-secret-outcome: no-match</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="image/png"
+    eTag="&quot;ddd0663ed2a53c4ff817ebfa1ff3e695&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 07 Apr 2020 07:09:10 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"

@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Start Skype" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6abf1b57-bc5f-48b3-aeb2-5a3852870e22" weightsEnabled="false">
+    <weighted-embedded-action uid="a9faed9c-6b33-4aef-b644-d3a73c47ab8a"/>
+    <weighted-embedded-action uid="15d61df8-08e7-48fa-b6af-c246af45e6a7"/>
+    <weighted-embedded-action uid="2e027d24-f0b4-4724-adb8-51b5a2ff124c"/>
+    <weighted-embedded-action uid="3b30bef9-284f-41aa-adcb-61464bd7f48c"/>
+    <weighted-embedded-action uid="399e874c-d755-402c-89f9-ac47d8c3c31c"/>
+    <weighted-embedded-action uid="eb15b824-2f9c-49c5-bfe0-0b3216bc2ff5"/>
+    <weighted-embedded-action uid="89460450-da22-40ee-b8a1-e00b1c392d49"/>
+    <weighted-embedded-action uid="a94705a2-a5fe-4266-bcf5-7e5605f1bd61"/>
+    <weighted-embedded-action uid="ca435df0-e544-402d-bf95-c40bbe39fed1"/>
+    <weighted-embedded-action uid="8b842696-bf67-4c6e-be81-ee437a5baf7e"/>
+</basic-logical-action-container>

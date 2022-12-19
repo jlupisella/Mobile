@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false" name="/log"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/fcb9a7a6-7dbc-42fa-a4d8-e28b8f0402e6.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fcb9a7a6-7dbc-42fa-a4d8-e28b8f0402e6">
+    <embedded-action>ddab1603-7d6c-4f00-9e8e-f14d73a4a8b9</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/fcb9a7a6-7dbc-42fa-a4d8-e28b8f0402e6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="ddab1603-7d6c-4f00-9e8e-f14d73a4a8b9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_5c663120-0fc2-443d-af49-2eb0e91fbc72.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="dtLatC=189; dtPC=3$434718998_141h-vMRMGFBKFEPSKTPUDJBNBKKROCLJUMWJP-0e0; dtSa=-; rxVisitor=1667418058758PJ1UJUAS6G0APEJM4KT3MF8AOG8OJI2P; rxvt=1667836519085|1667833654098; ushahidi=3rl3jar0grgd08ejklrl5kt6j3; dtCookie=v_4_srv_3_sn_9D75E24217A423F20360924D3AFA43E4_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 07 Nov 2022 15:25:19 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=3rl3jar0grgd08ejklrl5kt6j3; expires=Mon, 07-Nov-2022 17:25:19 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1581580415"&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

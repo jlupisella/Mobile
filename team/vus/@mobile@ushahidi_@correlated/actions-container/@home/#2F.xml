@@ -1,0 +1,121 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/c5735916-e2e4-46ff-b0f4-552861ca8f0d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c5735916-e2e4-46ff-b0f4-552861ca8f0d">
+    <embedded-action>778b3f3a-20a5-4c6b-a37b-c189be177832</embedded-action>
+    <embedded-action>bf6e50c0-af3c-4429-9b79-82eb98b800f5</embedded-action>
+    <embedded-action>354153af-f314-4003-9a3b-9c1593699d63</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/c5735916-e2e4-46ff-b0f4-552861ca8f0d.zip"
+    recordedResponseCode="200" responseSize="28974"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="778b3f3a-20a5-4c6b-a37b-c189be177832" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_92fb9506-c5b4-4f91-8aab-61f78150d35d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_92fb9506-c5b4-4f91-8aab-61f78150d35d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_3_sn_9D75E24217A423F20360924D3AFA43E4_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtPC=3$433654082_511h-vMRMGFBKFEPSKTPUDJBNBKKROCLJUMWJP-0e0; dtLatC=1; rxVisitor=1667418058758PJ1UJUAS6G0APEJM4KT3MF8AOG8OJI2P; rxvt=1667835456514|1667833654098; ushahidi=3rl3jar0grgd08ejklrl5kt6j3; dtSa=-"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 07 Nov 2022 15:25:18 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=3rl3jar0grgd08ejklrl5kt6j3; expires=Mon, 07-Nov-2022 17:25:18 GMT; Max-Age=7200; path=/; httponly&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1249906918"&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    eTag="&quot;fd6cd1c23ee4300d4b78832aad6cce2f&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/12/2112/1501.png" path="/12/2112/1501.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/c5735916-e2e4-46ff-b0f4-552861ca8f0d.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="b.tile.openstreetmap.org" slaProfileEnabled="false"
+    uid="bf6e50c0-af3c-4429-9b79-82eb98b800f5" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ffb8a368-a5ac-4b9b-be51-e8bdd3bfc238.txt</requestContentFileDescription>
+    <header name="referer" value="https://ushahidi.apps.neotys.com/"/>
+    <header name="if-none-match" value="&quot;b0f3708e7245c0d737173cc08dfb5463&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ushahidi.apps.neotys.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1"/>
+    <header name="accept" value="image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Mon, 07 Nov 2022 15:25:19 GMT&#xd;
+via: 1.1 varnish&#xd;
+cache-control: max-age=3952, stale-while-revalidate=604800, stale-if-error=604800&#xd;
+etag: "b0f3708e7245c0d737173cc08dfb5463"&#xd;
+expires: Sat, 05 Nov 2022 06:31:24 GMT&#xd;
+age: 8093&#xd;
+x-served-by: cache-bos4629-BOS&#xd;
+x-cache: HIT&#xd;
+x-cache-hits: 1&#xd;
+x-timer: S1667834719.051667,VS0,VE1&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/json/cluster" path="/json/cluster" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@ushahidi_@correlated/%resources%/recorded-artifacts/c5735916-e2e4-46ff-b0f4-552861ca8f0d.zip"
+    recordedResponseCode="200" responseSize="133087"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="354153af-f314-4003-9a3b-9c1593699d63" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_13a19d41-ce99-4537-a6f9-bed1843adc43</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_13a19d41-ce99-4537-a6f9-bed1843adc43.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="1617235200" separator="=" value="1617235200" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="e"
+        recordRawValue="1669852799" separator="=" value="1669852799" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="z"
+        recordRawValue="12" separator="=" value="12" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="dtLatC=189; dtPC=3$434718998_141h-vMRMGFBKFEPSKTPUDJBNBKKROCLJUMWJP-0e0; dtSa=-; rxVisitor=1667418058758PJ1UJUAS6G0APEJM4KT3MF8AOG8OJI2P; rxvt=1667836519085|1667833654098; ushahidi=3rl3jar0grgd08ejklrl5kt6j3; dtCookie=v_4_srv_3_sn_9D75E24217A423F20360924D3AFA43E4_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 07 Nov 2022 15:25:19 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=3rl3jar0grgd08ejklrl5kt6j3; expires=Mon, 07-Nov-2022 17:25:19 GMT; Max-Age=7200; path=/; httponly&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-2134327768"&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: application/json; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

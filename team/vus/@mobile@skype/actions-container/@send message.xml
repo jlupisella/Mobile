@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Send message" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="30ef50af-7695-45e3-8248-b705481e0ee3" weightsEnabled="false">
+    <weighted-embedded-action uid="a68fab96-bfcd-40ad-8a34-94aa0ea6beb3"/>
+    <weighted-embedded-action uid="c3ea2818-1e2b-479f-a033-92d553ef0bcb"/>
+    <weighted-embedded-action uid="ebdf6dc1-b272-4155-879a-1a266ab10985"/>
+    <weighted-embedded-action uid="42aeb5e6-53cc-46ab-ab3f-ba8806f69453"/>
+</basic-logical-action-container>

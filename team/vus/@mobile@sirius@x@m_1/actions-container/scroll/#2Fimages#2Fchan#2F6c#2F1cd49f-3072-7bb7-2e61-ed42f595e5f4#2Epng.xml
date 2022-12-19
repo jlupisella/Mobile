@@ -1,0 +1,437 @@
+<http-page executeResourcesDynamically="false"
+    name="/images/chan/6c/1cd49f-3072-7bb7-2e61-ed42f595e5f4.png"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    slaProfileEnabled="false" thinkTime="1181"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e2d36832-9d7a-47c7-97c9-802eac4da580">
+    <embedded-action>73fba8bd-77b0-4368-adfc-addd686fe124</embedded-action>
+    <embedded-action>8c5e476e-3afa-434e-a7f6-cecf8eea9445</embedded-action>
+    <embedded-action>1dd3e0a3-e1f5-4b6b-b3f5-c908207e7848</embedded-action>
+    <embedded-action>289382de-5ffd-4690-840d-9a0203e955b3</embedded-action>
+    <embedded-action>dffbc6cc-266f-4d86-9bb2-b78a43ffe0de</embedded-action>
+    <embedded-action>7b783588-0756-421f-8d88-e56def45ec8d</embedded-action>
+    <embedded-action>a9163138-9616-46a4-844f-4520e5a05702</embedded-action>
+    <embedded-action>c82bf335-e188-4da5-b0f8-e20f07cb84f4</embedded-action>
+    <embedded-action>9319c128-0b68-44a3-a3ca-74bb9e08b608</embedded-action>
+    <embedded-action>14dbb388-ee7a-45da-8106-3ef42be88019</embedded-action>
+    <embedded-action>75c6026f-6cbe-4f7d-8cdf-92154deb52f4</embedded-action>
+    <embedded-action>1699b651-4d4c-46e9-9982-4c1849a38ef9</embedded-action>
+    <embedded-action>381a615a-92f7-46d3-a72e-274aaef7d179</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/6c/1cd49f-3072-7bb7-2e61-ed42f595e5f4.png"
+    path="/images/chan/6c/1cd49f-3072-7bb7-2e61-ed42f595e5f4.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="73fba8bd-77b0-4368-adfc-addd686fe124" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_73fba8bd-77b0-4368-adfc-addd686fe124.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 68451&#xd;
+Cache-Control: max-age=84780&#xd;
+Expires: Tue, 08 Nov 2022 15:33:43 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/6c/1cd49f-3072-7bb7-2e61-ed42f595e5f4.png"
+    path="/images/chan/6c/1cd49f-3072-7bb7-2e61-ed42f595e5f4.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="8c5e476e-3afa-434e-a7f6-cecf8eea9445" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_8c5e476e-3afa-434e-a7f6-cecf8eea9445.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 68451&#xd;
+Cache-Control: max-age=84780&#xd;
+Expires: Tue, 08 Nov 2022 15:33:43 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    path="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="1dd3e0a3-e1f5-4b6b-b3f5-c908207e7848" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_1dd3e0a3-e1f5-4b6b-b3f5-c908207e7848.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 117250&#xd;
+Cache-Control: max-age=12393&#xd;
+Expires: Mon, 07 Nov 2022 19:27:16 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    path="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="289382de-5ffd-4690-840d-9a0203e955b3" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_289382de-5ffd-4690-840d-9a0203e955b3.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 117250&#xd;
+Cache-Control: max-age=12393&#xd;
+Expires: Mon, 07 Nov 2022 19:27:16 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    path="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="dffbc6cc-266f-4d86-9bb2-b78a43ffe0de" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_dffbc6cc-266f-4d86-9bb2-b78a43ffe0de.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 117250&#xd;
+Cache-Control: max-age=12393&#xd;
+Expires: Mon, 07 Nov 2022 19:27:16 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    path="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="7b783588-0756-421f-8d88-e56def45ec8d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7b783588-0756-421f-8d88-e56def45ec8d.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 117250&#xd;
+Cache-Control: max-age=12393&#xd;
+Expires: Mon, 07 Nov 2022 19:27:16 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    path="/images/chan/5f/29fdbd-5f5a-4c16-0384-d6974aacdf44.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="a9163138-9616-46a4-844f-4520e5a05702" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_a9163138-9616-46a4-844f-4520e5a05702.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 117250&#xd;
+Cache-Control: max-age=12393&#xd;
+Expires: Mon, 07 Nov 2022 19:27:16 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/52/36d2bc-2123-ea29-0b50-380668f865c2.png"
+    path="/images/chan/52/36d2bc-2123-ea29-0b50-380668f865c2.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="c82bf335-e188-4da5-b0f8-e20f07cb84f4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c82bf335-e188-4da5-b0f8-e20f07cb84f4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 31629&#xd;
+Cache-Control: max-age=83990&#xd;
+Expires: Tue, 08 Nov 2022 15:20:33 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:43 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/d8/5d705b-4e3c-6d89-d709-e7ab83c5278b.png"
+    path="/images/chan/d8/5d705b-4e3c-6d89-d709-e7ab83c5278b.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="9319c128-0b68-44a3-a3ca-74bb9e08b608" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_9319c128-0b68-44a3-a3ca-74bb9e08b608.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 71374&#xd;
+Cache-Control: max-age=85124&#xd;
+Expires: Tue, 08 Nov 2022 15:39:28 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:44 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/b3/84d622-95f8-f106-51f1-ce3686887756.png"
+    path="/images/chan/b3/84d622-95f8-f106-51f1-ce3686887756.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="14dbb388-ee7a-45da-8106-3ef42be88019" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_14dbb388-ee7a-45da-8106-3ef42be88019.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 36666&#xd;
+Cache-Control: max-age=82855&#xd;
+Expires: Tue, 08 Nov 2022 15:01:39 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:44 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/67/476332-363e-5e98-b940-9789d150f871.png"
+    path="/images/chan/67/476332-363e-5e98-b940-9789d150f871.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="75c6026f-6cbe-4f7d-8cdf-92154deb52f4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_75c6026f-6cbe-4f7d-8cdf-92154deb52f4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 46674&#xd;
+Cache-Control: max-age=8711&#xd;
+Expires: Mon, 07 Nov 2022 18:25:55 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:44 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/3f/65974a-fa3c-e421-735d-5261381e9456.png"
+    path="/images/chan/3f/65974a-fa3c-e421-735d-5261381e9456.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="1699b651-4d4c-46e9-9982-4c1849a38ef9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_1699b651-4d4c-46e9-9982-4c1849a38ef9.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 55832&#xd;
+Cache-Control: max-age=11698&#xd;
+Expires: Mon, 07 Nov 2022 19:15:42 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:44 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/14/468d68-aecc-c541-d00e-898ee1d2ea6f.png"
+    path="/images/chan/14/468d68-aecc-c541-d00e-898ee1d2ea6f.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/e2d36832-9d7a-47c7-97c9-802eac4da580.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="381a615a-92f7-46d3-a72e-274aaef7d179" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_381a615a-92f7-46d3-a72e-274aaef7d179.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 21230&#xd;
+Cache-Control: max-age=9419&#xd;
+Expires: Mon, 07 Nov 2022 18:37:43 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:44 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

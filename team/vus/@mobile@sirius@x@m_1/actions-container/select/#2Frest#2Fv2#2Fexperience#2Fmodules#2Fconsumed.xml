@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/rest/v2/experience/modules/consumed"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/b9fa710c-a391-44cf-b8b7-5bc3b39aa924.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b9fa710c-a391-44cf-b8b7-5bc3b39aa924">
+    <embedded-action>2d6ec8b6-90a6-46b0-8218-e99389cc2d34</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rest/v2/experience/modules/consumed"
+    path="/rest/v2/experience/modules/consumed" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/b9fa710c-a391-44cf-b8b7-5bc3b39aa924.zip"
+    recordedResponseCode="200" responseSize="100"
+    serverUid="streamingapi2.mountain.siriusxm.com"
+    slaProfileEnabled="false" uid="2d6ec8b6-90a6-46b0-8218-e99389cc2d34" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2d6ec8b6-90a6-46b0-8218-e99389cc2d34</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2d6ec8b6-90a6-46b0-8218-e99389cc2d34.txt</requestContentFileDescription>
+    <header name="x-siriusxm-applicationname" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="cookie" value="SXM-EVEREST-DEVICE=%7B%22platform%22%3A%22Phone%22%7D; SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; AWSALB=vn4pfadiE1uX72HI1ivsqkOOtxAH6D7s36RVL1W/EZ5g2ekLmoeMIreSfjK7JgPfyHrLyWxlFTwgRlp+Zb9F2pghuVBRR7QVjapTdZgYdSzA29lGtWbc/cE9Fasz; AWSALBCORS=vn4pfadiE1uX72HI1ivsqkOOtxAH6D7s36RVL1W/EZ5g2ekLmoeMIreSfjK7JgPfyHrLyWxlFTwgRlp+Zb9F2pghuVBRR7QVjapTdZgYdSzA29lGtWbc/cE9Fasz; X-Mountain-PausePoint=55283875D42E1C2FFB775066311736D6%24%24%24type!Live~ID!estreetradio~timestamp!null; incap_ses_1362_1673607=vfIcQh2NCC38lcoSYMzmEpsraWMAAAAAnqOoMfxFBAeZrNG0P898tA==; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D; SXM-DATA=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTg5Mzk5NDksImlzcyI6IlNpcml1c1hNIiwic3ViIjoiU1hNREFUQSIsImF1ZCI6IlNpcml1c1hNIFVzZXIiLCJwciI6IjU1MjgzODc1RDQyRTFDMkZGQjc3NTA2NjMxMTczNkQ2IiwiZGUiOiJkZTNhNTU0NjNlMjAxZDExMWI4OGZiMDQzZjVjYjFmMDgwOWJmYTAzMDIwMDAwMDBlNDAwNTk3OGVhMjlmNjgxMzIwMDAwMDAwMDAwMDAwMGEwMGI4NzgxMDIwMDAwMDA3MGE2IiwiY2ciOiJkZTNhNTU0NjNlMjAxZDExMWI4OGZiMDQzZjVjYjFmMDgwOWJmYTAzMDIwMDAwMDBlNDAwNTk3OGVhMjlmNjgxMzIwMDAwMDAwMDAwMDAwMGEwMGI4NzgxMDIwMDAwMDA3MGE2Iiwic24iOiI0NTVkNmU5OC1jOGJkLTQ1YzItYjEzZS02NGNmNmVmMjMxYjgiLCJjbCI6IjM1MCIsInRzIjoib24iLCJyZSI6IlVTIiwiYXQiOiJVIiwidGltZXN0YW1wIjoxNjY3ODM1OTQ5MDgwLCJ1IjoiOUUzNTIxNDI1MTc2NjYxQUE5RTE5MTI1RDg1MENFRDEiLCJwcHIiOiI1NTI4Mzg3NUQ0MkUxQzJGRkI3NzUwNjYzMTE3MzZENiIsInJ0IjoicGVKMVRGczlMU3AzTzQ4YnVrQ29jclZKNm1xM0FITWJmb2xtRWVsQW1XIiwidmNsIjoiNjAwIiwiYXAiOiIxX1NJUl9JUF9FVlRfWE0iLCJtdG4iOnRydWUsImNhc3QiOiJOIiwic3IiOiIxNjY3ODUwMzQ4Iiwic3JzYiI6dHJ1ZSwiZGV2aWNlcGxhdGZvcm0iOiJQaG9uZSIsInN1cHBvcnRzdmlkZW8iOiJ0cnVlIiwiY2xpZW50Y2FwYWJpbGl0aWVzIjpbInJlbGF0aXZlVXJscyIsInpvbmVzIiwiaXJpc1BvZGNhc3QiLCJpcmlzUG9kY2FzdERvd25sb2FkIiwiaW4tYXBwLXB1cmNoYXNlIiwiaWFwMl8wIiwic2VlZGVkUmFkaW8iLCJhZGRsQ2hhbm5lbHMiLCJlbmhhbmNlZEVEUCIsImNwQ29sb3JCYWNrZ3JvdW5kIiwicG9kY2FzdCIsInRhYlNvcnRPcmRlciJdfQ.e4RcoG_B1ulm58YISVqbJyEtt95pI3foOyk2ES4t3PI; nlbi_1673607=BZ56Cc1FzT/a901St9vx1wAAAAA3oWnPjvVm+JwBBDldV/E/; JSESSIONID=C5183E67A02ABB592FF4C852F7249073; SXMSUB=25A133C759F83B80A7EA233961C207A35805B1AC4402A0C41661FE86B91C617B; visid_incap_1673607=nNIdwqm5RjqfV7comTu90ULssGIAAAAAQUIPAAAAAAAS2ElkQKGvFhspQFoyWhub; SXMAUTHNEW=3757729317_2EE3B8BC66812E8DFBCCC8389B4173CEC9E5086542571734001B7B09E0AEDEC9_FCDF5BD3DD99480D83AECA2E10EB18300D7401AFCEFFEBBC2A81ACA0100D246C0A73D221517FDA0729B9D31CA884FBA0%3B1F651B1EBDAFC35C2A0931E65829194B7923EB90FA9F53520EC3E7BF0301E759%3BA0D5DDB735BDC6D102399F94024BF63A"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-siriusxm-deviceid" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Mon, 07 Nov 2022 16:01:07 GMT&#xd;
+content-type: application/json&#xd;
+server: nginx&#xd;
+set-cookie: AWSALB=AAWZy/9NWxao7iZ/BdZ8QwwPXUx1VFxzecgjk50iol3/y1pOioHxCUPMmiYx9F86cZQN48twdbxbYetTBd4XQMf+kwnfobJfMvX0AFicyD/o1vQTWsvOLqkSvo8d; Expires=Mon, 14 Nov 2022 16:01:07 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=AAWZy/9NWxao7iZ/BdZ8QwwPXUx1VFxzecgjk50iol3/y1pOioHxCUPMmiYx9F86cZQN48twdbxbYetTBd4XQMf+kwnfobJfMvX0AFicyD/o1vQTWsvOLqkSvo8d; Expires=Mon, 14 Nov 2022 16:01:07 GMT; Path=/; SameSite=None&#xd;
+sxm-aws-info: instance=i-0572d045e3a4c1000|image=ami-024976476020dac13|ip=10.90.0.231|aws=true&#xd;
+x-siriusxm-status: 1&#xd;
+x-siriusxm-messagecode: 100&#xd;
+x-siriusxm-gupid: 55283875D42E1C2FFB775066311736D6&#xd;
+x-siriusxm-listenerid: null&#xd;
+x-siriusxm-clientguid: de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6&#xd;
+set-cookie: X-Mountain-PausePoint=55283875D42E1C2FFB775066311736D6%24%24%24type!Live~ID!estreetradio~timestamp!2022-11-07T15%3A56%3A07.077Z; Expires=Wed, 07-Dec-2022 16:01:07 GMT; Path=/; HttpOnly&#xd;
+access-control-allow-methods: POST&#xd;
+access-control-allow-headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-SiriusXM-CastingReceiver,OAUTHTOKEN,x-mountain-playerid&#xd;
+content-encoding: gzip&#xd;
+x-cdn: Imperva&#xd;
+content-security-policy-report-only: default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: ; form-action 'none' data: blob: ; report-uri /csp_report&#xd;
+x-iinfo: 11-103217528-103223505 PNNy RT(1667836826387 40600) q(0 1 1 -1) r(1 1) U5</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"moduleList":{"modules":[{"moduleType":"Live","moduleArea":"NowPlayingTimeLineFeed","moduleRequest":{"consumeRequests":[{"offline":false,"isSatelliteEvent":false,"incognito":false,"aodDownload":false,"partnerCode":"","consumptionInfo":"gi=GDCA-108403994-001,c=estreetradio,d=18000,ag=dec93452-570e-7957-d32d-990138ee5e35,ms=2022-11-07T15:56:07.005Z,si=2279032248,ph=$OMPbi","consumeEvent":"markerStart","gupId":"55283875D42E1C2FFB775066311736D6","consumeStreamDateTime":"2022-11-07T15:56:07.077Z","consumeEventAction":"tuneStart","consumeDateTime":"2022-11-07T16:01:07.415Z","audioOutput":"S"}]}}]}}]]></textPostContent>
+</http-action>

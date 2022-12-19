@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SubmitButton" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="eea2c839-0215-4727-bce7-794cd45b4622" weightsEnabled="false">
+    <weighted-embedded-action uid="56572bab-bafd-40d7-98f0-fd9a5fc6d21e"/>
+    <weighted-embedded-action uid="29822f9e-6b98-47d4-b486-a3f00dab02e1"/>
+    <weighted-embedded-action uid="772f5d02-a16e-4568-bfc5-534e71cd125f"/>
+    <weighted-embedded-action uid="babd23eb-1757-43f3-900d-8ea005b1f923"/>
+</basic-logical-action-container>

@@ -44,7 +44,7 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1"
-    eTag="&quot;b0f3708e7245c0d737173cc08dfb5463&quot;"
+    eTag="&quot;fd6cd1c23ee4300d4b78832aad6cce2f&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"

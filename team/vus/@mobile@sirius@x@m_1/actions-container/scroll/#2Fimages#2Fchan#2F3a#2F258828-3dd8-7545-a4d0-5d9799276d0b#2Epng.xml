@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    name="/images/chan/3a/258828-3dd8-7545-a4d0-5d9799276d0b.png"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/9cad53aa-7fb9-49e8-93fe-2ac137be00a2.zip"
+    slaProfileEnabled="false" thinkTime="622"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9cad53aa-7fb9-49e8-93fe-2ac137be00a2">
+    <embedded-action>04c23dad-cbae-45d3-9d1c-22881a6f4ce2</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/images/chan/3a/258828-3dd8-7545-a4d0-5d9799276d0b.png"
+    path="/images/chan/3a/258828-3dd8-7545-a4d0-5d9799276d0b.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/9cad53aa-7fb9-49e8-93fe-2ac137be00a2.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="pri.art.prod.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="04c23dad-cbae-45d3-9d1c-22881a6f4ce2" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_04c23dad-cbae-45d3-9d1c-22881a6f4ce2.txt</requestContentFileDescription>
+    <header name="Accept" value="image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="pri.art.prod.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/5.13.1 (iPhone; iOS 15.6; Scale/3.00)"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 17327&#xd;
+Cache-Control: max-age=84930&#xd;
+Expires: Tue, 08 Nov 2022 15:36:21 GMT&#xd;
+Date: Mon, 07 Nov 2022 16:00:51 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

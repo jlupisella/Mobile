@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false" name="/v2/profiles"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/eb15b824-2f9c-49c5-bfe0-0b3216bc2ff5.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="eb15b824-2f9c-49c5-bfe0-0b3216bc2ff5">
+    <embedded-action>2ebcd029-7834-4163-b458-a19dfbba8540</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v2/profiles" path="/v2/profiles" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype/%resources%/recorded-artifacts/eb15b824-2f9c-49c5-bfe0-0b3216bc2ff5.zip"
+    recordedResponseCode="200" responseSize="279"
+    serverUid="people.skype.com" slaProfileEnabled="false"
+    uid="2ebcd029-7834-4163-b458-a19dfbba8540" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_807ff3e8-0f7c-4268-bbdc-2b849f8a6440</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_807ff3e8-0f7c-4268-bbdc-2b849f8a6440.txt</requestContentFileDescription>
+    <header name="x-skypetoken" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3OTUyNDEsImV4cCI6MTY2ODg4MTY0MCwic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODc5NTI0MCIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.ShppvIo26Y6cMuH1gP29-LXkCWkpfsGrvtgQjvZqQg8fQCG71fvboqbRK5dE_fXoqm9awEToBzaglYCOTfGnOwhUNqzrPcAIgs4DqCRl1yXpViVr7YghIeYBsjny5wErbVEiXImSpCMDjJaJCssPT9gIAiG7WXqofVs3eaWP1I7hmEoFJk3Peo9YqI6XM5JZjh4RC6c5AY9Mz6so12wuLkkAiv9xsYtI8DhR5_04zfL_b7z2jCtC7NFjEJh-kpvK__QEdN-Bm0z3bxErGCmLuiESdryR0xyDSezwjaInlk5Rs7lZoeiE-zdsDKj28QGlGnYERkEWs-I0T7emlNY2UA"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-skype-caller" value="Skype4Life ReactNative iOS (8.86.0.415)"/>
+    <header name="x-skype-request-id" value="aaebfac0-4cc1-4518-bd1f-fbdd87b9772f"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+server: Microsoft-HTTPAPI/2.0&#xd;
+ms-cv: j46Bz3Og8Uq3HQyMd8mybA.0&#xd;
+strict-transport-security: max-age=2592000&#xd;
+date: Fri, 18 Nov 2022 18:14:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"mris":["8:live:jeffrey.lupisella"],"locale":"en-US"}]]></textPostContent>
+</http-action>

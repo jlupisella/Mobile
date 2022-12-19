@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="scroll" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="cd1cde36-c8cb-4d8f-8ab3-ad2bc9a84e80" weightsEnabled="false">
+    <weighted-embedded-action uid="29d71c6f-c032-4d74-8560-b90b9edcf8aa"/>
+    <weighted-embedded-action uid="7d13d3c9-7308-40e9-a2d1-c1fec43bfdc2"/>
+    <weighted-embedded-action uid="360697a5-a38e-4a8f-878b-e78366f25819"/>
+    <weighted-embedded-action uid="e2d36832-9d7a-47c7-97c9-802eac4da580"/>
+    <weighted-embedded-action uid="8fa92250-d07c-48b5-abce-b2e5c82a2980"/>
+    <weighted-embedded-action uid="9cad53aa-7fb9-49e8-93fe-2ac137be00a2"/>
+    <weighted-embedded-action uid="f11df551-2d72-4e1c-af59-1724959ec728"/>
+    <weighted-embedded-action uid="acb64243-e7c1-4b9f-8ed9-37ff3e94e830"/>
+</basic-logical-action-container>

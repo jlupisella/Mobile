@@ -1,0 +1,312 @@
+<http-page executeResourcesDynamically="false" name="/v2/registrations"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    slaProfileEnabled="false" thinkTime="12635"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="382cf208-915d-4ed6-8a3d-b7dd8f27446f">
+    <embedded-action>8dcfa213-5bd0-49ff-a511-ebe5c04f339d</embedded-action>
+    <embedded-action>d6839620-5814-4004-a210-8d41fc5647f0</embedded-action>
+    <embedded-action>280d41a2-567e-4c73-b58e-7d3a993108d2</embedded-action>
+    <embedded-action>c1fa3424-e268-4bf9-8ac0-edb200fa8bca</embedded-action>
+    <embedded-action>a1965b8c-dafe-43c3-9c42-6317e871b766</embedded-action>
+    <embedded-action>831737f6-ee88-449b-9008-47f17c557385</embedded-action>
+    <embedded-action>fbea6188-f69d-45dc-906b-28e78038b84b</embedded-action>
+</http-page>
+<http-action actionType="1" customMethod="true"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PATCH" name="/v2/registrations" path="/v2/registrations"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="prod.registrar.skype.com" slaProfileEnabled="false"
+    uid="8dcfa213-5bd0-49ff-a511-ebe5c04f339d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_dc4f0824-d5fe-425e-a745-0dd4b6c0aa26.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-skype-remove-invalid-apns-binding+json"/>
+    <header name="Host" value="prod.registrar.skype.com"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-skypetoken" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3Mjg5MzgsImV4cCI6MTY2ODgxNTMzNywic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODcyODkzNyIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.V1u00nYnDt1UiOlWpDHz6OvRT9ZWDkFV-dvozEbZplKgMFQKJ15R2SNHSSQIcrr6ZCUB-_TpmEItBXXU3UnPFxjUHgDFAMrYTwCxVMuJWI_Q-RjGf0lX5HLREqqLYO94PPT-IDOsW8_QOFVETOuF5sab_y6E6ZGv8cV0b29D7fwG1CAum9k7FJUSIxsGcTYnnWdenlXD5hekie4tsfGJ9_oJVxNsBhrcyzXUekUmUNgHACBD0_TdABPudYauNIAduxgxj01vrZLtr8BI4LNIS4KjPkMh6wiyDxUUO9VR7u6ZcM7bW0gpZ9N6VG9sdaWK4nTGNLTJz3tb0tcUpEryTQ"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Connection: close&#xd;
+Date: Fri, 18 Nov 2022 18:14:00 GMT&#xd;
+Server: Kestrel&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+MS-CV: FjD5ao/YVU6LQJj4c7uzmw.0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"path":"RfENlmdNAX0qu431bm1M1PK68s4tWmqLQ7JtchGP+Ys=","timestamp":1668895240.027,"appId":"com.skype.skype.t2"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/oauth20_token.srf" path="/oauth20_token.srf"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="200" responseSize="1494"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="d6839620-5814-4004-a210-8d41fc5647f0" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y2xpZW50X2lkPTAwMDAwMDAwNDgwQkM0NkMmbm9wYT0xJmNvYT0xJnNjb3BlPXNlcnZpY2U6Omx3LnNreXBlLmNvbTo6TUJJX1NTTCZyZWZyZXNoX3Rva2VuPU0uUjNfU04xLi1DYTBoeVpoeWc0b0daemdybUVTUUJ2IWEySGprVWc1Klk4R1VJbzdaaWE0SWdBcDhWblhMMDRqaXJXIUlqV0ZOSm00RTA3MXl1KnlPYzBaV2s3eCFsV0Nla3FKVTNsYmdhODFBY1MwYTNCWkN4IU05SXluR3ZWUEh1RSFVckJkdldGem5wNFlUZG5JUWIyNXpBUGNweDREcFN3dk1QNWcxTlVwSGNCNzQzOUxYUzlUV2UqNE9sRW91RDdiYUFDcmhxbjdXN0FOd1BCNXFaeDY5eVVzdUNwUUIyIVl5VWllUFN0SzgxMlhvM2RFbHVxMG9SMjVscGE2IW9VZ2pPdEs0eXltYjVvUUJmdEt3dnZ0UkVDMyohWkJsVDVhb1dzQnFBRFYqMDU2UnVDanUmZ3JhbnRfdHlwZT1yZWZyZXNoX3Rva2VuJnNrbXBiPTA=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_1deb5328-2ddb-4d85-aae2-537ccfe05b85</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1deb5328-2ddb-4d85-aae2-537ccfe05b85.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="00000000480BC46C" separator="="
+        value="00000000480BC46C" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nopa"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="coa"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="scope"
+        recordRawValue="service::lw.skype.com::MBI_SSL" separator="="
+        value="service::lw.skype.com::MBI_SSL" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="refresh_token"
+        recordRawValue="M.R3_SN1.-Ca0hyZhyg4oGZzgrmESQBv!a2HjkUg5*Y8GUIo7Zia4IgAp8VnXL04jirW!IjWFNJm4E071yu*yOc0ZWk7x!lWCekqJU3lbga81AcS0a3BZCx!M9IynGvVPHuE!UrBdvWFznp4YTdnIQb25zAPcpx4DpSwvMP5g1NUpHcB7439LXS9TWe*4OlEouD7baACrhqn7W7ANwPB5qZx69yUsuCpQB2!YyUiePStK812Xo3dEluq0oR25lpa6!oUgjOtK4yymb5oQBftKwvvtREC3*!ZBlT5aoWsBqADV*056RuCju"
+        separator="="
+        value="M.R3_SN1.-Ca0hyZhyg4oGZzgrmESQBv!a2HjkUg5*Y8GUIo7Zia4IgAp8VnXL04jirW!IjWFNJm4E071yu*yOc0ZWk7x!lWCekqJU3lbga81AcS0a3BZCx!M9IynGvVPHuE!UrBdvWFznp4YTdnIQb25zAPcpx4DpSwvMP5g1NUpHcB7439LXS9TWe*4OlEouD7baACrhqn7W7ANwPB5qZx69yUsuCpQB2!YyUiePStK812Xo3dEluq0oR25lpa6!oUgjOtK4yymb5oQBftKwvvtREC3*!ZBlT5aoWsBqADV*056RuCju" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="grant_type"
+        recordRawValue="refresh_token" separator="="
+        value="refresh_token" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="skmpb"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Host" value="login.live.com"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+x-ms-route-info: R3_SN1&#xd;
+x-ms-request-id: 93251d4e-d2c9-4fee-a9c8-0f51039884ed&#xd;
+PPServer: PPV: 30 H: SN1PEPF00011039 V: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Date: Fri, 18 Nov 2022 18:14:00 GMT&#xd;
+Content-Length: 1494</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v1/users/ME/presenceDocs/messagingService"
+    path="/v1/users/ME/presenceDocs/messagingService" postCharset=""
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="200" responseSize="484"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="280d41a2-567e-4c73-b58e-7d3a993108d2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4b843f18-7cc6-49a0-b0c6-15c075646e9f.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4b843f18-7cc6-49a0-b0c6-15c075646e9f.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="/"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="5" extractTypeAdv="0" extractTypeSimple="5"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="ExtractedVariable_EndPointID"
+        refererUid="280d41a2-567e-4c73-b58e-7d3a993108d2"
+        regExp="endpoints/(.*?)/" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="endpoints/" template="$1$" templateAdv="$1$"
+        uid="f8beae31-543e-488d-b69a-90482e3c521f" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3Mjg5MzgsImV4cCI6MTY2ODgxNTMzNywic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODcyODkzNyIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.V1u00nYnDt1UiOlWpDHz6OvRT9ZWDkFV-dvozEbZplKgMFQKJ15R2SNHSSQIcrr6ZCUB-_TpmEItBXXU3UnPFxjUHgDFAMrYTwCxVMuJWI_Q-RjGf0lX5HLREqqLYO94PPT-IDOsW8_QOFVETOuF5sab_y6E6ZGv8cV0b29D7fwG1CAum9k7FJUSIxsGcTYnnWdenlXD5hekie4tsfGJ9_oJVxNsBhrcyzXUekUmUNgHACBD0_TdABPudYauNIAduxgxj01vrZLtr8BI4LNIS4KjPkMh6wiyDxUUO9VR7u6ZcM7bW0gpZ9N6VG9sdaWK4nTGNLTJz3tb0tcUpEryTQ"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="endpointid" value="${ExtractedVariable_EndPointID}"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQTFmekczU2lHY25ueTZEdjlyODFHeDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3MjkyNzU4Mjg0NTc2MTI7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3MjkyNzU4MjAxNzY0Mzc7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwMTM5Nzk3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhY2gyWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668815337; endpointId=${ExtractedVariable_EndPointID}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;MR76gXvoONwJtVeI9FpeHzFOLG5JZuJIHkrVxZN6oUA=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 271&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=5960078803531943449,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:13:59 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" customMethod="true"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PATCH" name="/v2/registrations" path="/v2/registrations"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="prod.registrar.skype.com" slaProfileEnabled="false"
+    uid="c1fa3424-e268-4bf9-8ac0-edb200fa8bca" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_df0a7c00-5ac8-4dc7-b219-dc16bacd1949.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-skype-remove-invalid-apns-binding+json"/>
+    <header name="Host" value="prod.registrar.skype.com"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-skypetoken" value="eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3Mjg5MzgsImV4cCI6MTY2ODgxNTMzNywic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODcyODkzNyIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.V1u00nYnDt1UiOlWpDHz6OvRT9ZWDkFV-dvozEbZplKgMFQKJ15R2SNHSSQIcrr6ZCUB-_TpmEItBXXU3UnPFxjUHgDFAMrYTwCxVMuJWI_Q-RjGf0lX5HLREqqLYO94PPT-IDOsW8_QOFVETOuF5sab_y6E6ZGv8cV0b29D7fwG1CAum9k7FJUSIxsGcTYnnWdenlXD5hekie4tsfGJ9_oJVxNsBhrcyzXUekUmUNgHACBD0_TdABPudYauNIAduxgxj01vrZLtr8BI4LNIS4KjPkMh6wiyDxUUO9VR7u6ZcM7bW0gpZ9N6VG9sdaWK4nTGNLTJz3tb0tcUpEryTQ"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Connection: close&#xd;
+Date: Fri, 18 Nov 2022 18:14:00 GMT&#xd;
+Server: Kestrel&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+MS-CV: RcVE+AoICk+jCPa/CxPCDQ.0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"path":"dlXp61qLGPWgJckTs7wrPmy8SgN1Ip7gqeO3CW3Dq7w=","timestamp":1668895240.027,"appId":"com.skype.skype.t2"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/profile/v1.0/me/profile"
+    path="/profile/v1.0/me/profile" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="substrate.office.com" slaProfileEnabled="false"
+    uid="a1965b8c-dafe-43c3-9c42-6317e871b766" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_48c7915d-2adc-4b55-9f3a-2e544ac83b36.txt</requestContentFileDescription>
+    <header name="authorization" value="MSAuth1.0 usertoken=&quot;t=EwA4A2KBBAAUnQP8Jfa2FYxR0AX7HsEZwOdWa28AAWfDxFYajLmYKjWYMovpHYQu7v8KHiofqieVL/JYzWEo8Z0WSqPdagOPQxqDyGcsbCQ3KGMlhVZZFYyhmrCJv26R6f7Q6BWD2c8hJZnOp11jYeMAh5bNtVrCOMLo6uefop26LCpE2olpWk7DlXyLbQksKVFkWbCNJbZNMgIBqOe4lD1U/3UtbIaqqZZa7OJi2ts9jlPlg9nBsKwZ7VR/zWVuzbsX+hAdYonmVB05o+NVmFqHZ2QVGVNV5v9P9QiVTB7VT6iCn5q9yYEswNVK1Igluer0m1cIUDbQl9gPNxHnb/o2c1+QhDKH/jePNGMGMnCBSmw+15Pj5HhJ6CtxxS0DZgAACJW/5/kEX0MrCALL7gAI6w8T140eONZD5f430Az/sMVDxeK77UMA3lVYWL2BRE5iiul9u1c5is9Yswtlvm0Nc4d1ptX5FT/6NsE8y9RoHG4a8G94GcYO/XJsTD/oNfDJa8JxQB2HhXEPG9LJT8BTtHcqHMb9ZaEcPC0bZYgOadRhLeTKTU5OCWwbM75d2lcsMmfkEJwIbRx1rp8pgtG76rRso9zn+KxOVZzCNJFAIzkAXjOsCErpL9Bq37CG1yUIDA5SFipkfOXaNXQ9Bm33KUtt57gfdrHKqED/EnV6DnvFCB9rio8jrgy3+rNkHgjQl/F7Txzy2fwNsQOr/oHyU0bhshbRKLMRhKD57OSvPw5DuqdDHzszsTxR5ZO84NrAuHdTK18f9OGvytMptvKIJ6+SBZsNLfmXzcFkLdT+kQxgTBIabhNMCuFvew0cjq5HhAZHRTENMDR0i14OaptvlTKZT9IEiD9FHuPztlr2XX3XsD28sxaOBrsNehkxGbPXE4LQ2O2mKBadv3MVQBnkGLPXRGhclnBtmUSOHKX/AEMem8HzdkIqJRjfBg/LYvBVsuzLpBLK2v2MCMQiWWB67Tx2fx1tOF/imqNrzc/uEBnUcooBDnZYWcn2ovOaEnYjLoCRI//iuy+Vu75rQKtx8zssihDpYzXUXKqHibW7D9Vq3KyrrMYioAKnECgbpVaGSi4gXgI=&quot;, type=&quot;MSACT&quot;"/>
+    <header name="if-none-match" value="&quot;OAA1AGIAMQAwADIAYwBjADMA&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-anchormailbox" value="CID:7B3C41608C96BEAC"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+cache-control: no-cache&#xd;
+pragma: no-cache&#xd;
+expires: -1&#xd;
+server: Microsoft-IIS/10.0&#xd;
+request-id: e5f444e7-c875-7d49-e000-880fb9ad3d9e&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+alt-svc: h3=":443",h3-29=":443"&#xd;
+x-preferredroutingkeydiagnostics: 1&#xd;
+x-calculatedfetarget: DM6PR17CU001.internal.outlook.com&#xd;
+x-backendhttpstatus: 304&#xd;
+x-calculatedbetarget: DM6PR11MB4075.namprd11.prod.outlook.com&#xd;
+x-backendhttpstatus: 304&#xd;
+x-rum-validated: 1&#xd;
+x-ms-appid: 00000000480BC46C&#xd;
+requestpath: HappyPath&#xd;
+callerrole: Owner&#xd;
+x-microserviceversion: 2.0.0.312&#xd;
+x-aspnet-version: 4.0.30319&#xd;
+x-beserver: DM6PR11MB4075&#xd;
+x-besku: &#xd;
+x-end2endlatencyms: 131&#xd;
+x-content-type-options: nosniff&#xd;
+x-rum-notupdatequeriedpath: 1&#xd;
+x-proxy-routingcorrectness: 1&#xd;
+x-proxy-backendserverstatus: 304&#xd;
+x-feproxyinfo: BL1PR13CA0433.NAMPRD13.PROD.OUTLOOK.COM&#xd;
+x-feefzinfo: MNZ&#xd;
+ms-cv: 50T05XXISX3gAIgPua09ng.1.1&#xd;
+x-feserver: DM6PR17CA0016&#xd;
+x-firsthopcafeefz: MNZ&#xd;
+x-powered-by: ASP.NET&#xd;
+x-feserver: BL1PR13CA0433&#xd;
+date: Fri, 18 Nov 2022 18:14:00 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" eTag="&quot;0x8DA4B08E2D78BBC+gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 10 Jun 2022 17:44:36 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/pes/v1/emoticons/sad/views/meta.en-US"
+    path="/pes/v1/emoticons/sad/views/meta.en-US" postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="static-asm.secure.skypeassets.com"
+    slaProfileEnabled="false" uid="831737f6-ee88-449b-9008-47f17c557385" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_dc39dd7c-1aba-4d0f-b2dd-038dcecdfc45.txt</requestContentFileDescription>
+    <header name="if-modified-since" value="Fri, 10 Jun 2022 17:44:36 GMT"/>
+    <header name="if-none-match" value="&quot;0x8DA4B08E2D78BBC+gzip&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="datatype" value="json"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding&#xd;
+age: 1906&#xd;
+cache-control: public,max-age=3600&#xd;
+date: Fri, 18 Nov 2022 18:14:00 GMT&#xd;
+etag: "0x8DA4B08E2D78BBC+gzip"&#xd;
+last-modified: Fri, 10 Jun 2022 17:44:36 GMT&#xd;
+server: ECAcc (bsb/27E7)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-state: available&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 78a715c7-301e-001c-5975-fbe519000000&#xd;
+x-ms-server-encrypted: true&#xd;
+x-ms-version: 2016-05-31</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT" name="/v1/users/ME/properties"
+    path="/v1/users/ME/properties" postType="4"
+    recordedArtifactZipFileName="team/vus/@mobile@skype_@correlated/%resources%/recorded-artifacts/382cf208-915d-4ed6-8a3d-b7dd8f27446f.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="azwus2-client-s.gateway.messenger.live.com"
+    slaProfileEnabled="false" uid="fbea6188-f69d-45dc-906b-28e78038b84b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_4d7c860d-087e-41fc-a16c-69591fcd176f.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="msaProfile" separator="=" value="msaProfile" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwNiIsIng1dCI6Im9QMWFxQnlfR3hZU3pSaXhuQ25zdE5PU2p2cyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Njg3Mjg5MzgsImV4cCI6MTY2ODgxNTMzNywic2t5cGVpZCI6ImxpdmU6amVmZnJleS5sdXBpc2VsbGEiLCJzY3AiOjk1NiwiY3NpIjoiMTY2ODcyODkzNyIsImNpZCI6IjdiM2M0MTYwOGM5NmJlYWMiLCJhYXQiOjE2NjU3NzMyMTR9.V1u00nYnDt1UiOlWpDHz6OvRT9ZWDkFV-dvozEbZplKgMFQKJ15R2SNHSSQIcrr6ZCUB-_TpmEItBXXU3UnPFxjUHgDFAMrYTwCxVMuJWI_Q-RjGf0lX5HLREqqLYO94PPT-IDOsW8_QOFVETOuF5sab_y6E6ZGv8cV0b29D7fwG1CAum9k7FJUSIxsGcTYnnWdenlXD5hekie4tsfGJ9_oJVxNsBhrcyzXUekUmUNgHACBD0_TdABPudYauNIAduxgxj01vrZLtr8BI4LNIS4KjPkMh6wiyDxUUO9VR7u6ZcM7bW0gpZ9N6VG9sdaWK4nTGNLTJz3tb0tcUpEryTQ"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=iOS; osVer=15.6; proc=x86; lcid=en-US; deviceType=2; country=US; clientName=skype4life; clientVer=1420/8.86.0.415//skype4life; timezone=America/New_York"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="azwus2-client-s.gateway.messenger.live.com"/>
+    <header name="registrationtoken" value="registrationToken=U2lnbmF0dXJlOjI6Mjg6QVFRQUFBQTFmekczU2lHY25ueTZEdjlyODFHeDtWZXJzaW9uOjY6MToxO0lzc3VlVGltZTo0OjE5OjUyNDk3MjkyNzU4Mjg0NTc2MTI7RXAuSWRUeXBlOjc6MTo4O0VwLklkOjI6MjI6bGl2ZTpqZWZmcmV5Lmx1cGlzZWxsYTtFcC5FcGlkOjU6MzY6MjRkNDIxYmYtYmU5OC0zODk3LWJlOTgtNDJjNjQyYzZiZTk4O0VwLkxvZ2luVGltZTo3OjE6MDtFcC5BdXRoVGltZTo0OjE5OjUyNDk3MjkyNzU4MjAxNzY0Mzc7RXAuQXV0aFR5cGU6NzoyOjE1O0VwLkV4cFRpbWU6NDoxOTo1MjQ5NzMwMTM5Nzk3Mzg3OTA0O1Vzci5OZXRNYXNrOjExOjE6MjtVc3IuWGZyQ250OjY6MTowO1Vzci5SZHJjdEZsZzoyOjA6O1Vzci5FeHBJZDo5OjE6MDtVc3IuRXhwSWRMYXN0TG9nOjQ6MTowO1VzZXIuQXRoQ3R4dDoyOjQyODpDbE5yZVhCbFZHOXJaVzRXYkdsMlpUcHFaV1ptY21WNUxteDFjR2x6Wld4c1lRRURWV2xqRkRFdk1TOHdNREF4SURFeU9qQXdPakF3SUVGTkRFNXZkRk53WldOcFptbGxaS3krbG94Z1FUeDdBQUFBQUFBQVFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCWnNhWFpsT21wbFptWnlaWGt1YkhWd2FYTmxiR3hoQUFBQUFBQUFBQUFBQjA1dlUyTnZjbVVBQUFBQUJBQUFBQUFBQUFBQUFBQUFyTDZXakdCQlBIc0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRVdiR2wyWlRwcVpXWm1jbVY1TG14MWNHbHpaV3hzWVFBQUFBQUFhY2gyWXdjQUFBQUlTV1JsYm5ScGRIa09TV1JsYm5ScGRIbFZjR1JoZEdVSVEyOXVkR0ZqZEhNT1EyOXVkR0ZqZEhOVmNHUmhkR1VJUTI5dGJXVnlZMlVOUTI5dGJYVnVhV05oZEdsdmJoVkRiMjF0ZFc1cFkyRjBhVzl1VW1WaFpFOXViSGtBQUE9PTs=; expires=1668815337; endpointId=${ExtractedVariable_EndPointID}"/>
+    <header name="User-Agent" value="Skype4Life/8.86.0.415 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="x-ecs-etag" value="&quot;MR76gXvoONwJtVeI9FpeHzFOLG5JZuJIHkrVxZN6oUA=&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, must-revalidate, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+ContextId: tcid=6002378935675530586,server=MW1PEPF0000593C&#xd;
+Date: Fri, 18 Nov 2022 18:14:00 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"msaProfile":"{\"ageGroup\":2,\"ageGroupFetchedTimestamp\":1668795241040,\"enabled\":false,\"onboardingCompleted\":false}"}]]></textPostContent>
+</http-action>

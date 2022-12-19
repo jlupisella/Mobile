@@ -1,0 +1,428 @@
+<http-page executeResourcesDynamically="false"
+    name="/conversations/5c0dd60d7acc3d731a0d7777/events"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    slaProfileEnabled="false" thinkTime="851"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7852a4e1-55ea-4d8f-9ad1-4b4107828dd8">
+    <embedded-action>46d27e32-a3f3-4115-8590-3ff0ee0d5450</embedded-action>
+    <embedded-action>c05624c9-5d59-4427-81c6-ed2b7c5f334a</embedded-action>
+    <embedded-action>8c3a8262-9224-40e0-940f-47fde2dcad50</embedded-action>
+    <embedded-action>1ac55e7d-fb9f-4d06-a0d7-1b0c3686c3d1</embedded-action>
+    <embedded-action>bd057e3f-16bd-4bee-b1b4-d6e65dd2971b</embedded-action>
+    <embedded-action>a4ab1b98-ba8a-4ed9-a95b-0a83a1692668</embedded-action>
+    <embedded-action>f3498906-1806-4ebf-b299-38b59a95fa35</embedded-action>
+    <embedded-action>905f7fca-bcd7-4916-b201-981d6d3f31c9</embedded-action>
+    <embedded-action>26af0662-2f8f-470e-aebb-f5630af611ab</embedded-action>
+    <embedded-action>eff8910f-f77f-4298-b900-0d02f7b9f88e</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757508138_00096169_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757508138_00096169_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="46d27e32-a3f3-4115-8590-3ff0ee0d5450" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_46d27e32-a3f3-4115-8590-3ff0ee0d5450.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79584&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18030&#xd;
+Date: Mon, 07 Nov 2022 16:01:10 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757498386_00096168_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757498386_00096168_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="c05624c9-5d59-4427-81c6-ed2b7c5f334a" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c05624c9-5d59-4427-81c6-ed2b7c5f334a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79616&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18087&#xd;
+Date: Mon, 07 Nov 2022 16:01:10 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757478884_00096166_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757478884_00096166_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="8c3a8262-9224-40e0-940f-47fde2dcad50" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_8c3a8262-9224-40e0-940f-47fde2dcad50.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79712&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18119&#xd;
+Date: Mon, 07 Nov 2022 16:01:10 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757469132_00096165_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757469132_00096165_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="1ac55e7d-fb9f-4d06-a0d7-1b0c3686c3d1" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_1ac55e7d-fb9f-4d06-a0d7-1b0c3686c3d1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79568&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18079&#xd;
+Date: Mon, 07 Nov 2022 16:01:10 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757488635_00096167_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757488635_00096167_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="bd057e3f-16bd-4bee-b1b4-d6e65dd2971b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_bd057e3f-16bd-4bee-b1b4-d6e65dd2971b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79600&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18105&#xd;
+Date: Mon, 07 Nov 2022 16:01:10 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757537392_00096172_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757537392_00096172_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="a4ab1b98-ba8a-4ed9-a95b-0a83a1692668" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_a4ab1b98-ba8a-4ed9-a95b-0a83a1692668.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79680&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18103&#xd;
+Date: Mon, 07 Nov 2022 16:01:11 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757527641_00096171_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757527641_00096171_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="f3498906-1806-4ebf-b299-38b59a95fa35" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f3498906-1806-4ebf-b299-38b59a95fa35.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79584&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18057&#xd;
+Date: Mon, 07 Nov 2022 16:01:11 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757556911_00096174_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757556911_00096174_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="905f7fca-bcd7-4916-b201-981d6d3f31c9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_905f7fca-bcd7-4916-b201-981d6d3f31c9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79568&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18189&#xd;
+Date: Mon, 07 Nov 2022 16:01:11 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757517889_00096170_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757517889_00096170_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="26af0662-2f8f-470e-aebb-f5630af611ab" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_26af0662-2f8f-470e-aebb-f5630af611ab.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79456&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18142&#xd;
+Date: Mon, 07 Nov 2022 16:01:11 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="audio/aac"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757547159_00096173_v3.aac"
+    path="/AAC_Data/estreetradio/HLS_estreetradio_64k_v3/estreetradio_64k_1_110757547159_00096173_v3.aac"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@mobile@sirius@x@m_1/%resources%/recorded-artifacts/7852a4e1-55ea-4d8f-9ad1-4b4107828dd8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="primary.hls-streaming-everest.production.streaming.siriusxm.com"
+    slaProfileEnabled="false" uid="eff8910f-f77f-4298-b900-0d02f7b9f88e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_eff8910f-f77f-4298-b900-0d02f7b9f88e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="consumer"
+        recordRawValue="k2" separator="=" value="k2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gupId"
+        recordRawValue="55283875D42E1C2FFB775066311736D6" separator="="
+        value="55283875D42E1C2FFB775066311736D6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="SXMAKTOKEN=&quot;d=1667838666_99c2563d10922b9374e5c76102d61c3f,v=1,&quot;; SXMHOSTMAP=streamingapi2.mountain.siriusxm.com; SXMKEYPATH=rest/streaming; SXMDATA=%7B%22vclId%22%3A%22600%22%2C%22sr%22%3A%221667850348%22%2C%22ts%22%3A%22on%22%2C%22srt%22%3A%22peJ1TFs9LSp3O48bukCocrVJ6mq3AHMbfolmEelAmW%22%2C%22de%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22deviceId%22%3A%22de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6%22%2C%22clId%22%3A%22350%22%2C%22channelLineupId%22%3A%22350%22%2C%22ar%22%3A%22US%22%2C%22gupId%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22cast%22%3A%22N%22%2C%22cg%22%3A%22%22%2C%22u%22%3A%229E3521425176661AA9E19125D850CED1%22%2C%22sn%22%3A%22455d6e98-c8bd-45c2-b13e-64cf6ef231b8%22%2C%22aws%22%3Atrue%2C%22ppf%22%3A%2255283875D42E1C2FFB775066311736D6%22%2C%22ap%22%3A%221_SIR_IP_EVT_XM%22%2C%22bp%22%3Afalse%2C%22a%22%3A%22U%22%2C%22timestamp%22%3A1667835949080%7D"/>
+    <header name="Host" value="primary.hls-streaming-everest.production.streaming.siriusxm.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="User-Agent" value="SiriusXM/1658957697 CFNetwork/1335.0.3 Darwin/21.6.0"/>
+    <header name="X-SiriusXM-applicationName" value="EVUS-mobile-ios-5.13.1.1658957697-CCL-B8.66"/>
+    <header name="X-SiriusXM-deviceId" value="de3a55463e201d111b88fb043f5cb1f0809bfa0302000000e4005978ea29f6813200000000000000a00b87810200000070a6"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache&#xd;
+Content-Length: 79328&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=18191&#xd;
+Date: Mon, 07 Nov 2022 16:01:11 GMT&#xd;
+Connection: keep-alive&#xd;
+Akamai-Mon-Iucid-Del: 1176975&#xd;
+Content-Type: audio/aac</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
